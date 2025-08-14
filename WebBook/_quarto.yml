@@ -3,59 +3,67 @@ project:
   output-dir: ../_build/book
 
 book:
-  title: "EMSC Quarto"
-  author: "Louis Moresi"
-  date: "06/03/2024"
-  bread-crumbs: false
+  title: "Planetary Sciences (EMSC 3022)"
+  author:
+    - "Louis Moresi"
+  date: "01/07/2025"
+  bread-crumbs: True
   chapters:
-    - part: "Introduction"
+    - part: "**Geodynamics and Planetary Interiors**"
       chapters:
         - index.qmd
-        - intro.qmd
-    - part: "Details"
-      chapters:
-        - summary.qmd
-        - references.qmd
+        - Overview.qmd
 
-    - part: "Slides"
-      chapters:
-        - LectureSlides/Lecture1.qmd
-
-  appendices:
-    - Notebooks/BinderLandingPage.qmd
-    - Notebooks/TestNB1.ipynb
-    - Notebooks/TestQMD_NB1.qmd
+    # - part: "**Basic Language Skills**"
+    #   chapters:
+    #     - 1-Basics/Ex1-IntroWebPython.qmd
+    #     - 1-Basics/Ex2-Variables.qmd
+    #     - 1-Basics/Ex2a-Functions.qmd
+    #     - 1-Basics/Ex3-Conditionals.qmd
+    #     - 1-Basics/Ex4-Loops.qmd
+    #     - 1-Basics/Ex5-ListsEtc.qmd
+    #     - 1-Basics/Ex6-MoreLoops.qmd
+    #     - 1-Basics/Ex7-Strings.qmd
+    #     - 1-Basics/Ex8-ReadWriteFiles.qmd
 
   navbar:
     search: true
-    logo: Images/ANU-logo.jpg
+    logo: assets/ANU-logo.jpg
     background: "white"
     foreground: "#C58812" # ANU honey colour
 
   sidebar:
     # logo: Images/COS-EarthSciences-800.jpg
-    # logo: Images/ANU-logo.jpg
+    logo: assets/AuWorldEQ.jpg
     background: "white"
     # foreground: "#C58812" # ANU honey colour
 
 bibliography: references.bib
 
-format:
-  html:
-    theme: flatly # united / simplex
-    linkcolor: "#C58812"
+execute:
+  enabled: false
 
-    code-links:
-      - text: Open in Binder
-        icon: rocket-takeoff
-        href: https://mybinder.org/v2/gh/ANU-RSES-Education/EMSC-QuartoBook/HEAD?labpath=WebBook/Notebooks%2FBinderLandingPage.qmd
+format:
+  live-html:
+    theme: [united, "assets/theme.scss"] # united / simplex / flatly
+    mainfont: "Jost"
+    fontsize: 0.9em
+    linestretch: 1.7
+    linkcolor: "#C58812"
+    number-sections: false
+    number-depth: 1
+    # filters:
+    #   - pyodide
+
+    # code-links:
+    #   - text: Open in Binder
+    #     icon: rocket-takeoff
+    #     href: https://mybinder.org/v2/gh/ANU-RSES-Education/EMSC-getting-going-with-python/HEAD?labpath=WebBook/BinderLandingPage.qmd
+
     other-links:
       - text: Github Repository
         icon: github
-        href: https://github.com/ANU-RSES-Education/EMSC-QuartoBook
-
-  pdf:
-    documentclass: scrreprt
+        href: https://github.com/ANU-RSES-Education/EMSC-3022
 
 pyodide:
   packages:
@@ -65,3 +73,7 @@ pyodide:
     - pydap
     - jinja2
     - ssl
+    - owslib
+
+  # pdf:
+  #   documentclass: scrreprt
