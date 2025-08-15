@@ -14,4 +14,4 @@ jupyter:
 
 ## EMSC 3022 / 2025
 
-[Web Pages)[https://anu-rses-education.github.io/EMSC-3022/book/]
+[Web Pages](https://anu-rses-education.github.io/EMSC-3022/book/)
