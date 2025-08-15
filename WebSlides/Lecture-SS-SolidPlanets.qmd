@@ -1,0 +1,707 @@
+---
+title: PHYS 3070
+author: Prof Louis Moresi
+institute: Australian National University
+# date: '666-6-6'
+
+title-slide-attributes:
+  data-background-image: Images/custom/anu_general.png
+  data-background-size: contain
+
+format:
+  anu_slides-revealjs:
+    logo: ANU-logo.jpg
+    self-contained: true
+    footer: |
+            EMSC - 3022 - 2025/S2 !
+
+date-format: long
+lang: en
+# jupyter:
+#   jupytext:
+#     text_representation:
+#       extension: .qmd
+#       format_name: quarto
+#       format_version: '1.0'
+#       jupytext_version: 1.16.1
+#   kernelspec:
+#     display_name: Python 3 (ipykernel)
+#     language: python
+#     name: python3
+---
+
+# The Earth as one of many planets
+
+<br>
+
+:::: {.columns}
+
+::: {.column width="55%"}
+*In which we shall look around the solar system to understand which geological processes
+can be considered universal and which are unique to Earth.*
+:::
+
+::: {.column width="40%"}
+![](images/AuWorldEQ.png){fig-align="right"}
+:::
+
+::::
+
+# General Principles of Geology
+
+Geologists don't get to choose the experiments they would like to see the Earth perform for them.  They compare events from different places (and times) and assume they can generalize processes.
+
+<center>
+![](images/nz-map-all.jpg){height="320px"} &nbsp;&nbsp;&nbsp;
+![](images/san-andreas-transform-plate-boundary-10x.jpg){height="320px"}
+</center>
+
+:::{style="font-size:75%;"}
+*New Zealand: accreted terranes in colors and cover assemblage in gray. (Graham, Ian J. editor, 2015, A Continent on the Move, New Zealand Geoscience Revealed 2ed., Geoscience Society of New Zealand). W. Coast US: National Parks Service, [Transform Plate Boundaries](https://www.nps.gov/subjects/geology/plate-tectonics-transform-plate-boundaries.htm)*
+:::
+
+Uniformity of processes from place to place and time to time (**the present is the key to the past** *or vice versa*)
+
+# Planetary Scale Comparisons
+
+<center>
+![](images/orbits-planets-bodies-solar-system.jpg){height="350px"}
+</center>
+
+It's much harder to find analogues when it comes to processes on the scale of the whole planet. We can try to look at other planets in the solar system.
+
+## Planetary Scale Comparisons (2)
+
+<center>
+![](images/Moons2Scale.png){height="400px"}
+</center>
+
+We can also look at the mini-solar systems of the giant planets. Some of the moons of Jupiter and Saturn are the size of small planets.
+
+## Planetary Scale Comparisons (3)
+
+<center>
+![](images/MoonsPlusDwarfPlanets.jpg){height="400px"} &nbsp;
+</center>
+
+There are a number of dwarf planets and asteroids that are of significant size and that we can use as analogues for theories of planetary geology.
+
+## Planetary Scale Comparisons (4)
+
+<center>
+![](images/ExoplanetsGalore.jpg){height="400px"} &nbsp;
+</center>
+
+It would be nice if we could add all the exoplanets into this story but, regardless of the detail shown in these images, we only really know mass, radius and surface temperature.
+
+## Solar System Comparisons
+
+<center>
+![](images/SolarSystem_vs_Trappist.tiff){height="400px"} &nbsp;
+</center>
+
+Look at how close these exoplanets are to their star and look at their orbital periods. Trappist is a cool dwarf star but the habitable zone around it is debated. Do you think these Earth-like images are a fair representation of the weather systems ? Tidal heating, spin-orbit coupling, intense radiation / magnetic fields are likely to affect these planets as they do the moons of Jupiter in our solar system.
+
+# Virtual Solar System
+
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/earth?embed=true" allowfullscreen></iframe>
+</center>
+
+[https://eyes.nasa.gov/staging/apps/solar-system](https://eyes.nasa.gov/staging/apps/solar-system)
+
+::: {.notes}
+There are lots of useful things to view:
+  - Compare sizes
+  - Check to see what views are available (e.g. radar v. optical)
+:::
+
+
+# Venus
+
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/venus" allowfullscreen></iframe>
+</center>
+
+Link to Nasa [Venus Explorer](https://solarsystem.nasa.gov/gltf_embed/2342/?height=450&amp;rotate=true&amp;cc=true&amp;fs=true&amp;target=&amp;orbit=") Tool
+
+## Venus Topography
+
+<center>
+<video autoplay controls width="33%">
+    <source src="movies/Venus_Topography.mov"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+
+:::{style="font-size:75%;"}
+*Venus topography (from altimeter) superimposed upon the radar image. Cool colours represent low regions, warmer colours are high. Note that the altimeter resolution is much poorer than the imaging.*
+:::
+
+## Venus Facts
+
+Key Discoveries from the Past Decade (NAS -2023)
+
+ - Venus is likely a geologically active planet today. Several lines of evidence together suggest that volcanic activity takes place today on Venus, and the planet’s record of tectonic deformation speaks to recent and perhaps even ongoing deformation.
+
+ - Models show that the young surface is consistent with Venus being habitable for billions of years. New climate models indicate that Venus could have had modern-Earth-like conditions until as geologically recently as about a billion years ago, before entering a runaway greenhouse driven by several simultaneous, major volcanic eruptions.
+
+ - Exoplanet discoveries motivate renewed Venus exploration. The ongoing detection of large, rocky exoplanets close to their host stars, especially those that are amenable to having their atmospheres characterized, increasingly requires that we better understand the atmospheric properties and climate history of Venus.
+
+[Venus Factsheet](https://science.nasa.gov/venus/venus-facts)
+
+## Venus Landforms - Tesserae
+
+<center>
+![](images/VenusTessera.jpg){height="400px"}
+</center>
+
+:::{style="font-size:75%;"}
+*This is an area of Venus located southeast of Fortuna Tessera.
+The bright, rough terrain is "tessera"; the dark material
+between it is smoother lava plains. The plains are cut by polygonal
+cracks and folded by wrinkle ridges. Plains lavas have flowed into
+linear cracks in the tessera, indicating that the plains lavas came
+after the tessera.Image: NASA / JPL / mapaplanet.org / Emily Lakdawalla*
+:::
+
+## Venus Landforms - Volcanoes
+
+<center>
+![](images/VenusVolcano.jpg){height="400px"}
+</center>
+
+:::{style="font-size:75%;"}
+*Maat Mons: computer generated 3D perspective of the surface of Venus.
+The viewpoint is located ~640 km north of Maat Mons at an elevation of ~3 km
+above the terrain. Lava flows extend for hundreds of kilometers across the
+fractured plains shown in the foreground, to the base of Maat Mons.
+(Image credit: NASA/JPL-Caltech)*
+:::
+
+## Venus Landforms - Active Volcanoes
+
+<center>
+![](images/VenusActiveVolcano.jpg){height="400px"}
+</center>
+
+:::{style="font-size:75%;"}
+*Radar images of a vent that has changed shape. (A) East-looking cycle 1 image and (B) west-looking cycle 2 image of the changed vent
+and its surroundings. In the cycle 1 image, the vent appears nearly circular and deep with steep walls. In the cycle 2 image, the vent appears larger, irregular in outline, shallower, and nearly filled. The dashed yellow line outlines radar-bright lava flows visible in the cycle 2 image that were not
+apparent in the cycle 1 image.*
+:::
+
+## Venus Landforms - Coronae
+
+<center>
+![](images/VenusArtemisCorona.jpg){height="400px"}
+</center>
+
+:::{style="font-size:75%;"}
+*This  Magellan image is centered on 30 degrees south latitude,
+135 degrees east longitude, spans 3500 kilometers from east to west (left to right),
+and shows the near-circular trough of Artemis Chasma.
+Its circular shape and size (2100 km in diameter) make Artemis the largest corona
+identified to date on the surface of Venus.*
+:::
+
+# Mars
+
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/mars" allowfullscreen></iframe>
+</center>
+
+Link to Nasa [Mars Explorer](https://solarsystem.nasa.gov/gltf_embed/2372/?height=450&amp;rotate=true&amp;cc=true&amp;fs=true&amp;target=&amp;orbit=) Tool
+
+## Mars Topography
+
+<center>
+<video autoplay controls width="33%">
+    <source src="movies/MarsTopoCompressed.m4v"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+
+:::{style="font-size:75%;"}
+*Mars topography (from MOLA altimetry). Cool colours represent low regions, warmer colours are high. Note that the altimeter resolution is always significantly poorer than the surface imaging.*
+:::
+
+## Mars Facts
+
+Key Discoveries from the Past Decade (NAS -2023)
+
+ - Detection of organic matter in the lake sediments of Gale Crater indicating past indigenous organic chemistry in a martian habitable environment.
+
+ - Presence of massive mid-latitude deposits of water ice. There are large areas in Mars’s northern lowlands where hundreds-meter thick ice slabs occur  meters below the surface.
+
+ - Possibility of current or recent near-surface liquid water. Enrichments of salt in near-surface rocks and sediments and features that change seasonally with warm temperatures suggest small amounts of liquid water shaping martian geology even in the modern cold, dry climate regime.
+
+ - Multiple types of habitable environments were widespread across ancient Mars.  Evidence for lakes, rivers, playas, groundwater systems, and hydrothermal systems of varying temperatures and water chemistries, preserved in the rock record at thousands of locations, an environmental diversity similar to Earth.
+
+## Mars Facts (pt 2)
+
+ Key Discoveries from the Past Decade (NAS - 2023) pt 2
+
+  - Kilometer-thick layers of H2O ice and CO2 ice in the martian polar caps formed less than 10 million years ago. Radar analyses of polar deposits, coupled with climate models, indicate that much of the ice thickness of Mars’s poles is a product of *recent* climate change.
+
+  - Loss of H~2~O and CO~2~ to space and sequestration in crustal minerals were major factors in the evolution of the atmosphere and climate. Spacecraft measurements coupled with modeling show that Mars’s climate became drier and colder because of both escape of volatiles to space and their sequestration in minerals in its crust.
+
+  - Data from the InSight lander recorded frequent marsquakes up to magnitude 4 that allowed probing the martian interior: a thick, fractured crust, mantle structure, with a liquid core that includes a sizeable fraction of light elements.
+
+  - Ancient alkali-silica-rich igneous rocks. Data from orbiters and Gale crater have discovered more than just basaltic rocks on Mars. High alkali and silica rocks indicate more differentiated magmas.
+
+  - Mars is active. Dynamic activity includes: migrating sand dunes, recurring slope lineae formation, changing ice landforms, methane release, and marsquakes.
+
+  [Mars Factsheet](https://science.nasa.gov/mars/facts)
+
+## Mars Landforms - Volcanoes
+
+<center>
+![](images/Mars_OlympusMons_Getty.jpg){height="300px"}
+![](images/Mars_Tharsis_Valles_Marineris_MOLA.jpg){height="300px"}
+</center>
+
+:::{style="font-size:75%;"}
+*Olympus Mons (left), the largest volcano in the Tharsis region (right) and, we believe, the largest volcano in the solar system*
+:::
+
+## Mars Landforms - Tectonic Rifting
+
+<center>
+![](images/Mars_Valles_Marineris_ESA_Annotated.png){height="400px"}
+</center>
+
+:::{style="font-size:75%;"}
+*ESA’s Mars Express High Resolution Stereo Camera (HRSC) global colour mosaic of Mars. Image shows the canyon system **Valles Marineris** with annotated surface details: sulphate deposits, haze and fog, and cloud cover. This tectonic feature stretches more than 4000 km east-west and up to 700 km north-south, and is the biggest and most dramatic canyon system in the Solar System.*
+:::
+
+## Mars Landforms - Landslides
+
+<center>
+![](images/Mars_SlopeSlump.jpg){height="400px"}
+![](images/Mars_Avalanche.jpg){height="400px"}
+
+</center>
+
+:::{style="font-size:75%;"}
+*(Left) Lobate flows / landslides from a Martian scarp.
+(Right)A Mars Avalanche, taken by NASAs HiRISE instrument on the Mars Reconnaisance Orbiter (Credit: NASA/HiRISE)*
+:::
+
+## Mars Landforms - Sand Dunes
+
+<center>
+![](images/Mars_CorduroySandDunes.jpg){height="400px"}
+</center>
+
+:::{style="font-size:75%;"}
+*This image from NASA's Mars Reconnaissance Orbiter (MRO) shows the permanent polar cap of Mars, encircled by sand dunes and looking like pulled threads, these dunes march across a fabric of patterned ground.*
+:::
+
+## Mars Landforms - Ancient Rivers
+
+<center>
+![](images/Mars_jezero-crater-delta-paleochannel.jpg){height="400px"}
+</center>
+
+:::{style="font-size:75%;"}
+*The grooved channels of an ancient river delta thread through Jezero crater on Mars. Credit: NASA/JPL-Caltech/MSSS/JHUAPL*
+:::
+
+Less that 1 Gyr ago, there was liquid water flowing across Mars. This has significant implications for atmospheric pressure and temperature at that time.
+
+Duncombe, J. (2019), What ancient rivers on Mars reveal about its “great drying”, Eos, 100, https://doi.org/10.1029/2019EO119487. Published on 27 March 2019.
+
+## Mars Landforms - Ancient Rivers (2)
+
+<center>
+![](images/Mars_TopographyDriedOutRivers.jpg){height="400px"}
+</center>
+
+:::{style="font-size:75%;"}
+*This colour-coded topographic view shows the relative heights of the terrain in and around a network of dried-up valleys on Mars.
+
+Lower parts of the surface are shown in blues and purples, while higher altitude regions show up in whites, yellows, and reds, as indicated on the scale to the top right. This view is based on a digital terrain model of the region, from which the topography of the landscape can be derived. It comprises data obtained by the High Resolution Stereo Camera on Mars Express on 19 November 2018 during Mars Express orbit 18831. Credit:ESA/DLR/FU Berlin*
+:::
+
+## Mars Landforms - Evidence of Groundwater
+
+  <center>
+  ![](images/Mars_EarthBeach_MarsCraterFlows.jpg){height="400px"}
+  </center>
+
+:::{style="font-size:75%;"}
+
+*A) Beach drainage pattern on the order of 1 meter (Source: https://epod.usra.edu/blog/2017/01/beach-drainage.html), B) Martian “alcoves” suggesting groundwater seepage.*
+:::
+
+## Mars Landforms - Evidence of Groundwater (2)
+
+<center>
+![](images/Mars_Warm_Season_Flows_on_Slope_in_Horowitz_Crater.gif){height="400px"}
+</center>
+
+:::{style="font-size:75%;"}
+*This animationshows warm-season features that might be evidence of salty liquid water active on Mars today. Evidence for that possible interpretation is presented in a report by McEwen et al. in the Aug. 5, 2011, edition of Science.*
+:::
+
+# Mercury
+
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/mercury" allowfullscreen></iframe>
+</center>
+
+Link to Nasa [Mercury Explorer](https://solarsystem.nasa.gov/gltf_embed/2369/?height=450&amp;rotate=true&amp;cc=true&amp;fs=true&amp;target=&amp;orbit=) Tool
+
+## Mercury Facts
+
+Key Discoveries from the Past Decade (NAS - 2023)
+
+ - Mercury is a volatile-rich world. Despite being closer to the Sun, concentrations of volatile elements are more abundant on Mercury than on Venus or Earth, and are comparable with Mars.
+
+ - Mercury’s offset magnetic field and dynamic magnetosphere were revealed by MESSENGER. Mercury’s large metallic core generates an axially dipolar dynamo magnetic field that is 1) low intensity relative to Earth’s and 2) offset by approximately 20% of the planet’s radius to the north.
+
+ - Permanently shadowed regions near Mercury’s poles hold abundant water ice. Ice deposits exist either at the surface in a relatively pure, thick layer or beneath organic-rich lag deposits. Water ice may have been delivered by comets or asteroids or micrometeoroids, from the solar wind, or outgassing from Mercury’s interior.
+
+ - Mercury’s oldest surfaces contain high abundances of carbon that may be remnants of a primary graphite flotation crust from an early magma ocean. Much of the surface, however, was subsequently covered by extensive floods of lava of varying composition.
+
+[Mercury Factsheet](https://science.nasa.gov/mercury/facts/)
+
+## Mercury - Evidence of Cooling and Contraction
+
+<center>
+![](images/MercuryContractionFeature.png){height="400px"}
+</center>
+
+:::{style="font-size:75%;"}
+*Giant tectonic landforms like Carnegie Rupes, which is more than 2 km
+ high in places, provide evidence that Mercury shrunk as it cooled,
+ creating a lobate scarp (arrowed). The image has been color-coded to indicate
+  differences in topography: regions in red are higher standing terrain, regions
+  in blue lower. SOURCE:
+  Courtesy of NASA/Johns Hopkins University/Carnegie Institution of Washington*
+:::
+
+## Mercury, a Cratered / Impacted Body
+
+<center>
+![](images/Mercury_CalorisBasin.png){height="350px"} &nbsp;&nbsp;
+![](images/Mercury_ShockTerrain.jpg){height="350px"}
+</center>
+
+:::{style="font-size:75%;"}
+*Caloris Basin (left) is one of the largest impact craters in the solar system (1500 km diameter). At the antipode is a region of "shocked terrain" (or "weird terrain" that may be due to re-focusing of the impact energy*
+:::
+
+The inner-solar system location of Mercury means that impacts have very high kinetic energy and lead to a highly cratered surface.
+
+
+## Mercury - Volatiles Near the Surface
+
+<center>
+![](images/MercuryCraterVolatiles.png){height="400px"}
+</center>
+
+:::{style="font-size:75%;"}
+*Despite their hot surroundings, permanently shadowed regions near Mercury’s poles stay cold enough to host abundant deposits of water ice. SOURCE: Courtesy of N.L. Chabot with MESSENGER data from NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington; and Armytage et al. (2018).*
+:::
+
+# Earth's Moon
+
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/earth/moons/moon" allowfullscreen></iframe>
+</center>
+
+## Earth's Moon Facts
+
+Key Discoveries from the Past Decade (NAS -2023)
+
+ - GRAIL produced the highest resolution gravity field measurements of any object (including Earth). Data revealed the Moon’s crust to be far more fractured and porous than expected and exposed previously undiscovered global-scale magmatic-tectonic features, elucidated the formation and evolution of impact basins, and constrained models for both the bulk composition and formation of the Moon.
+
+ - New analyses of lunar samples provide insights into its formation and physicochemical evolution. Volatile elements are depleted in the lunar interior. Essentially identical isotopic compositions between Earth and Moon for nonvolatile elements strongly challenges prior Earth–Moon origin models.
+
+ - Additionally, paleomagnetic studies of lunar samples have revealed that the Moon once generated a core dynamo that persisted for over 2 billion years and had surface field strengths comparable to the current Earth.
+
+ - Geochronological studies of lunar samples have elucidated the Moon’s formation age, which ties into our understanding of the timing of giant impacts during planetary accretion.
+
+## Earth's Moon Facts (2)
+
+Key Discoveries from the Past Decade (NAS -2023)
+
+- Lunar volcanism was thought to have ended well over 1 billion years ago, but images from Lunal Reconaissance Orbiter revealed irregular patches of basaltic deposits that may have erupted within the past 100 million years.
+
+- Newly discovered tectonic features indicate locations of eruptions may be influenced by tidal interactions with Earth and orbital recession away from Earth, and movement along these faults likely continues into the present day.
+
+- images of craters that have formed after LRO began its mission indicate that impacts affect the surface far from the impact site, and secondary cratering overturns regolith at rates more than 100 times higher than previously thought.
+
+- Water ice lies at the surface within some regions of permanent shadow at the Moon’s poles. New results confirm that at least some polar H is present as H2O, although its origin and abundance is still not known.
+
+[Earth's Moon Factsheet](https://science.nasa.gov/moon/facts/)
+
+## Earth's Moon - Topography
+
+<center>
+<video autoplay controls width="33%">
+    <source src="movies/Moon_lola_topo_400.mov"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+
+:::{style="font-size:75%;"}
+*Lunar topography (from LOLA altimeter). Cool colours represent low regions, warmer colours are high.*
+:::
+
+Topography is dominated by craters and smooth areas known as the *maria*. Note that the far side (not dark side) has fewer / smaller maria.
+
+## Earth's Moon Surface Features: Craters
+
+<center>
+![](images/Moon_ESA_Craters.jpg){height="350px"} &nbsp;&nbsp;
+</center>
+
+:::{style="font-size:70%;"}
+This image shows a crater-filled region in the northeastern part of the Moon. To the left of the frame is the small Keldysh crater. Below and to the right of Keldysh is the small depression of Hercules F, which sits to the left of the faint and eroded rim of Atlas E. The largest and most prominent feature, visible towards the top right of the frame, is Atlas crater.
+
+Atlas is ~2km deep and ~90 km in diameter. The crater floor is peppered with hills, rifts and fractures that surround a clearly visible central mountain (seen casting a shadow). Some of the crater’s features are thought to have been influenced or shaped by volcanism e.g. the branching web of deep fissures and cracks stretching throughout the crater, known as Rimae Atlas. (ESA)
+:::
+
+## Earth's Moon Surface Features: Maria
+
+<center>
+![](images/Moon_MareImbrium.jpg){height="330px"} &nbsp;&nbsp;
+![](images/Moon_MareIngenii-Cont.jpg){height="330px"}
+</center>
+
+:::{style="font-size:70%;"}
+Left: Mare Imbrium. The largest basin at over 1100km diameter. The basin is surrounded by a ring of mountains, rising up as much as 7km above the mare floor, and there are signs of ejecta radiating out as far as 800km.
+Right: Mare Ingenii. On the far side of the Moon, 300km diameter, and part of the South Pol-Aitken basin. Swirls of light and dark volcanic material, the pattern of which may reflect the localised magnetic field of the region when it formed.
+:::
+
+Lunar maria are the dark topographical features that can be observed on the lunar surface, covering about 15% of the Moon's crust. They are impact basins created by collisions with cosmic debris that filled with lava and other lunar material between 1-4 billion years ago.
+
+# Jupiter's Moons
+
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/jupiter/moons" allowfullscreen></iframe>
+</center>
+
+## Jupiter's Moons Facts
+
+Jupiter’s four large Galilean moons reveal the fundamental importance of gravitational tides in generating internal heat, producing the giant volcanoes on Io and melting ice on Europa and Ganymede.
+
+- [Galilean Moons Factsheet: Io](https://science.nasa.gov/jupiter/moons/io/facts)
+
+- [Galilean Moons Factsheet: Callisto](https://science.nasa.gov/jupiter/moons/callisto/facts)
+
+- [Galilean Moons Factsheet: Ganymede](https://science.nasa.gov/jupiter/moons/ganymede/facts)
+
+- [Galilean Moons Factsheet: Europa](https://science.nasa.gov/jupiter/moons/europa/facts)
+
+These moons orbit close to a giant, active planet with strong gravity, intense radiation and magnetic fields. They might turn out to be good analogues to some of the hot exoplanets we saw earlier.
+
+
+
+
+
+
+<!-- We have to stop somewhere !!
+# Saturns Moons
+
+At Saturn, we see a suite of smaller, ice-rich moons of uncertain age that likely experienced tremendous dynamical upheaval (some of which are still active today), one large ice-rock world, and a number of smaller outer captured moons. Saturn’s lone large moon, Titan, has a dense nitrogen-methane atmosphere, with wind-blown dunes and organic precipitation producing Earth-like river channel systems, lakes and seas, suggesting a world akin to an early Earth in hibernation in the colder regions of the outer solar system.
+-->
+
+
+# Earth
+
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/apps/earth/?embed=true#/vital-signs/visible-earth/viirs-infrared-daily" allowfullscreen></iframe>
+</center>
+
+## Earth Facts
+
+We think of the Earth a little differently from the other planets, and so, usually does NASA. But their factsheet follows the same pattern and it is interesting to think about the Earth as "just another planet".
+
+ - [Earth factsheet](https://science.nasa.gov/earth/facts/)
+
+ Earth has a very hospitable temperature and mix of chemicals that have made life abundant here. Most notably, Earth is unique in that most of our planet is covered in liquid water, since the temperature allows liquid water to exist for extended periods of time. Earth's vast oceans provided a convenient place for life to begin about 3.8 billion years ago.
+
+ Some of the features of our planet that make it great for sustaining life are changing due to the ongoing effects of climate change.
+
+## Earth - Topography
+
+<center>
+<video autoplay controls width="45%">
+    <source src="movies/etopoimage.mp4"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+
+:::{style="font-size:75%;"}
+*ETOPO1 dataset rendered to distinguish bathymetry (depth below sea level) from topography (height above sea level)*
+:::
+
+Topography is bimodal (true of other planets as well) with many other surface features correlated with the continental / oceanic divide.
+
+# Unique Datasets for Planet Earth
+
+<center>
+![](https://assets.weforum.org/editor/bMinbkYdRsEqYe-Xq1_qPULVYWF-Ac5m0eR523VtJQM.jpeg){height="425px"}
+</center>
+
+
+## Earth - Thickness of the Lithosphere
+
+<center>
+![](images/LABDepth.png){height="425px"}
+</center>
+
+This map shows the lithospheric thickness coloured as though it refers to temperature (thin lithosphere is in warm colours, thick is in cool colours) which does have some physical relevance. The greyscale is topography.
+
+## Earth - Thickness of the Continental Lithosphere
+
+<center>
+![](images/LithosphereThickness.png){height="425px"}
+</center
+>
+A similar map that *contours* the thickest parts of the lithosphere (scale is in km) and leaves out the oceans altogether.
+
+## Earth - Relative thickness of Crust and Lithosphere
+
+<center>
+![](images/LithosphereRelativeThickness.svg){height="425px"}
+</center>
+
+This map shows the relative thickness of the crust and the lithosphere (thick crust is dark). You can immediately see how important the mechanical structure of the lithosphere is when it comes to the response to geological stresses. *The coloured dots are earthquake hypocentres coloured by depth and mostly show where the slabs are located.*
+
+## Earth - Global Stress
+
+<center>
+![](images/World_Stress_Map.jpeg){height="350px"}
+</center>
+The World Stress Map (WSM) 2016 displays the contemporary crustal stress orientation in the upper 40 km based on the WSM database release 2016. Lines show the orientation of maximum horizontal stress. The colours indicate whether stresses are associated with a) Normal faulting, b) strike-slip faulting, or c) thrust faulting.Note that the **magnitude** of the stress is not part of this map.
+
+## Earth - Global Seismicity
+
+The magnitude of the stress is related to the rate of seismic energy release because this is a measure of those places which are under enough stress for the lithosphere to "break".
+
+<center>
+<video autoplay controls width="75%">
+    <source src="movies/GlobalEQCumulative.m4v"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+
+Usually this takes the form of a fault that already exists sliding because the shear stresses are large compared to the confining pressure.
+
+## Earth - Global Strain rate
+
+<center>
+![](images/GlobalStrainRate.png){height="350px"}
+</center>
+
+The strain rate is a measure of how fast deformation is taking place. Strain rate is a measure of the rate of change of length (units are $s^{-1}$) *and* it is a tensor: there are multiple components that represent normal and shear strains. The measure shown here is an average (the second invariant).
+
+The rate of deformation is related to two things: the stress applied and the strength of the material.
+
+<small>
+Kreemer, C., Blewitt, G., & Klein, E. C. (2014). A geodetic plate motion and Global Strain Rate Model. Geochemistry, Geophysics, Geosystems, 15(10), 3849–3889. https://doi.org/10/f6p92p
+</small>
+
+## Earth - Global Volcanism
+
+<center>
+![](images/GlobalVolcanismMap.png){height="350px"}
+</center>
+
+Volcanic activity is distributed similarly to that of seismicity and mostly occurs at convergent and divergent plate boundaries. There is also a significant level of intra-plate volcanism. Magma pathways within the crust are influenced by the stress field and we can analyse volcanic structures to determine the ambient stress field at the time they were formed.
+
+<small>
+Make your own map from the NOAA natural hazards interactive web page: [https://maps.ngdc.noaa.gov/viewers/hazards](https://maps.ngdc.noaa.gov/viewers/hazards/?layers=3)
+</small>
+
+## Earth - Global Heat-flow
+
+<center>
+![](images/GlobalHeatFlowPoints.png){height="350px"}
+</center>
+
+Raw data compiled by Davies & Davies 2013. *There are really not very many reliable measurements*.
+
+
+## Earth - Surface Motions
+
+<center>
+![](images/PlateMotionsMollweide.png){height="350px"}&nbsp;&nbsp;
+</center>
+
+Directly observed plate motions (GPS, satellite ranging, very-long-baseline interferometry). Also shown, the strain-rate field, contoured to show highlight regions of high deformation rate.
+
+## Earth - Magnetic Field
+
+<center>
+![](images/Earth_MagfieldradialCMB-potsdam.png){height="250px"}&nbsp;&nbsp;
+![](images/Earth_Magfieldradial_Surface_potsdam.png){height="250px"}
+</center>
+
+The Earth has a strong, dominantly dipolar, magnetic field which reverses chaotically but relatively regularly. These two features together allow
+
+ - paleo-latitudes to be determined
+ - ocean floor ages to be determined.
+
+## Earth - Sea Floor Magnetisation
+
+<center>
+![](images/VineMatthews_JDFstripes.png){height="400px"} &nbsp; &nbsp;
+![](images/diagram-magnetic-reversals-ocean-ridge-800x600.png){height="400px"}
+</center>
+
+The morphology and bathymetry information comes to life when combined with
+the magnetic intensity maps of the mid-ocean ridge system. Chaotic magnetic reversal patterns combined with "steady" spreading produces a symmetric stripe-pattern that reflects the aging of the sea floor.
+
+## Earth - Sea Floor Age
+
+<center>
+![](images/AgeGrid_plate_carree.png){height="400px"}
+</center>
+
+Age distribution in the ocean floor  is systematic and regular. It ranges from 0 (forming now) to ~200Myr. (credit: Earthbyte.org / Dietmar Müller)
+
+## Earth - Seismic Imaging / Tomography
+
+<center>
+![](images/Ramanowicz2008Nature_TomographyComparisons.jpg){height="400px"}
+</center>
+
+Each column of images represents a different model of mantle shear-velocity structure (using various data sources) shown at three representative depths (140 km, 925 km and 2,770 km). From Ramanowicz, 2008, Nature.
+
+## Earth - Sedimentary Records
+
+<center>
+![](images/Source-to-sink-block-diag.jpg){height="360px"}
+</center>
+
+The linkages among the components of sediment routing systems: the source area (erosion), the transfer zone (rivers etc), and sinks (basins, deltas). In each zone, sediment may be stored temporarily, or accumulate in sinks if there is sufficient long-term accommodation.
+
+See: [Geological Digressions: Source to Sink]( https://www.geological-digressions.com/source-to-sink-sediment-routing-systems/)
+
+## Earth - Summary
+
+We have huge advantages in understanding the Earth because we have nearly unlimited access to the surface, limited access to the subsurface by drilling, digging, sampling. We can go "wherever we want" to take measurements or samples.
+
+<center>
+![](https://eospso.nasa.gov/sites/default/files/u15/fleet-swoosh-082922_Sept27.png){height="300px"}
+</center>
+
+We can set up imaging experiments that have long timescales and global reach.  On other planets, we have shorter experiments and everything is significantly limited in terms of duration and access.
+
+We have huge fleets of observing satellites and remote telemetry of discrete sensors.

@@ -27,5 +27,6 @@ lang: en
 
 Index file - just in case
 
- - [Presentation 1](PG1.html)
- - [Presentation 2](PG2.html)
+ - [Slides: Solar System Solid Planets](Lecture-SS-SolidPlanets.html)
+ - [Slides: Solid Planets 1](Lecture-PlanetaryGeophysics-1.html)
+ - [Slides: Solid Planets 2](Lecture-PlanetaryGeophysics-2.html)

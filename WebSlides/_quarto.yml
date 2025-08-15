@@ -3,11 +3,11 @@ project:
   output-dir: ../_build/slides
 
 format:
-  insper-revealjs:
+  anu_slides-revealjs:
     logo: Images/ANU-logo.jpg
     self-contained: true
     footer: |
-      ANU Course Notes: RSES Quarto     
+      ANU Course Notes: RSES Quarto
     code-links:
       - text: Open in Binder
         icon: rocket-takeoff
@@ -16,5 +16,3 @@ format:
       - text: Github Repository
         icon: github
         href: https://github.com/ANU-RSES-Education/EMSC-QuartoBook
-  
- 

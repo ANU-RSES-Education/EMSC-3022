@@ -16,7 +16,9 @@ book:
 
     - part: "**Lectures**"
       chapters:
-        - LectureSlides/Lecture_Planets.qmd
+        - LectureSlides/Lecture_SolarSystemSolidPlanets.qmd
+        - LectureSlides/Lecture_Planets-1.qmd
+        - LectureSlides/Lecture_Planets-2.qmd
 
     # - part: "**Basic Language Skills**"
     #   chapters:

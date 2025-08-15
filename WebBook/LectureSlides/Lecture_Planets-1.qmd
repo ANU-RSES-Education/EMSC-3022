@@ -1,0 +1,23 @@
+# Lecture - Evolution of the Solid Planets of Our Solar System - 1
+
+In this lecture, we take a tour around the solar system and reset our perspective on the Earth so that we can visit our own planet with fresh eyes.
+
+
+
+```{=html}
+<!-- Embed a presentation from this site -->
+<center>
+<iframe width="100%"
+        height="500"
+        src="../../slides/Lecture_PlanetaryGeophysics-1.html"
+        allowfullscreen
+        title="Lecture Slides">
+</iframe>
+</center>
+```
+
+<small>
+[Lectures Slides / Planets - 1](../../slides/Lecture_PlanetaryGeophysics-1.html)
+</small>
+
+[Link to index of presentations](/slides/index.html)
