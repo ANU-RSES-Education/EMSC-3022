@@ -1,0 +1,3 @@
+# Overview
+
+Summary of course material, with links to Lecture notes (slide embedded) and one or more lab exercises. Should have background reading / videos highlighted
