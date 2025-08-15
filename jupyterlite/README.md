@@ -33,5 +33,3 @@ optional utilities and extensions to make the JupyterLite experience more enjoya
 [`requirements.txt` file](requirements.txt) for a list of all the dependencies provided.
 
 For a template based on the Xeus kernel, see the [`jupyterlite/xeus-python-demo` repository](https://github.com/jupyterlite/xeus-python-demo)
-
-
