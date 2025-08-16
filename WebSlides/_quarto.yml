@@ -4,15 +4,16 @@ project:
 
 format:
   anu_slides-revealjs:
-    logo: Images/ANU-logo.jpg
-    # self-contained: true # this can blow up the file size and break publication on github pages
+    logo: images/ANU-logo.jpg
+    self-contained: false # this can blow up the file size and break publication on github pages
+    embed-resources: false
     footer: |
-      ANU Course Notes: RSES Quarto
+      ANU Course Notes: EMSC 3022
     code-links:
       - text: Open in Binder
         icon: rocket-takeoff
-        href: https://mybinder.org/v2/gh/ANU-RSES-Education/EMSC-QuartoBook/HEAD?labpath=WebBook/Notebooks%2FBinderLandingPage.qmd
+        href: https://mybinder.org/v2/gh/ANU-RSES-Education/EMSC-3022/HEAD?labpath=WebBook/Notebooks%2FBinderLandingPage.qmd
     other-links:
       - text: Github Repository
         icon: github
-        href: https://github.com/ANU-RSES-Education/EMSC-QuartoBook
+        href: https://github.com/ANU-RSES-Education/EMSC-3022

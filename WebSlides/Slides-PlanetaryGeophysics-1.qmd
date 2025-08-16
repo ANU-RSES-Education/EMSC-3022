@@ -11,7 +11,8 @@ title-slide-attributes:
 format:
   anu_slides-revealjs:
     logo: images/ANU-logo.jpg
-    self-contained: true
+    self-contained: false
+    embed-resources: false
     footer: |
       EMSC - 3022 - 2025/S2
 
