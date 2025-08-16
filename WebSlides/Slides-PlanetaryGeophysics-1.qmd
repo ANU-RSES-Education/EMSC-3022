@@ -1,5 +1,5 @@
 ---
-title: Planetary Geophysics 2
+title: Planetary Geophysics 1
 author: Louis Moresi
 institute: 'RSES'
 date: '2025-07-01'
@@ -10,12 +10,13 @@ title-slide-attributes:
 
 format:
   anu_slides-revealjs:
-    logo: ANU-logo.jpg
+    logo: images/ANU-logo.jpg
     self-contained: true
     footer: |
-      Watch yourself, sonny !
+      EMSC - 3022 - 2025/S2
 
-
+date-format: long
+lang: en
 # jupyter:
 #   jupytext:
 #     text_representation:
@@ -23,7 +24,6 @@ format:
 #       format_name: quarto
 #       format_version: '1.0'
 #       jupytext_version: 1.16.1
-
 #   kernelspec:
 #     display_name: Python 3 (ipykernel)
 #     language: python
@@ -32,24 +32,24 @@ format:
 
 # In the morning
 
-## Getting up
+## Wake up
 
-- Turn off alarm
+
+
 - Get out of bed
+- Drag a comb across my head
 
 ## Breakfast
 
-- Eat eggs
-- Drink coffee
+- Find my way downstairs and
+- Drink a cup (of coffee)
+
+## Day
+
+ - Find my coat
+ - Grab my hat
+ - Run for the bus
 
 # In the evening
 
-## Dinner
-
-- Eat spaghetti
-- Drink wine
-
-## Going to sleep
-
-- Get in bed
-- Count sheep
+...

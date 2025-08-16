@@ -1,5 +1,5 @@
 ---
-title: PHYS 3070
+title: EMSC 3022
 author: Prof Louis Moresi
 institute: Australian National University
 # date: '666-6-6'
@@ -10,7 +10,7 @@ title-slide-attributes:
 
 format:
   anu_slides-revealjs:
-    logo: ANU-logo.jpg
+    logo: images/ANU-logo.jpg
     self-contained: true
     footer: |
             EMSC - 3022 - 2025/S2 !

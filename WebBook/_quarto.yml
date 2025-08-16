@@ -16,21 +16,9 @@ book:
 
     - part: "**Lectures**"
       chapters:
-        - LectureSlides/Lecture_SolarSystemSolidPlanets.qmd
-        - LectureSlides/Lecture_Planets-1.qmd
-        - LectureSlides/Lecture_Planets-2.qmd
-
-    # - part: "**Basic Language Skills**"
-    #   chapters:
-    #     - 1-Basics/Ex1-IntroWebPython.qmd
-    #     - 1-Basics/Ex2-Variables.qmd
-    #     - 1-Basics/Ex2a-Functions.qmd
-    #     - 1-Basics/Ex3-Conditionals.qmd
-    #     - 1-Basics/Ex4-Loops.qmd
-    #     - 1-Basics/Ex5-ListsEtc.qmd
-    #     - 1-Basics/Ex6-MoreLoops.qmd
-    #     - 1-Basics/Ex7-Strings.qmd
-    #     - 1-Basics/Ex8-ReadWriteFiles.qmd
+        - LectureMaterials/SolarSystemSolidPlanets.qmd
+        - LectureMaterials/Solid-Planets-1.qmd
+        - LectureMaterials/Solid-Planets-2.qmd
 
   navbar:
     search: true
