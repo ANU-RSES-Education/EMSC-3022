@@ -5,7 +5,7 @@ project:
 format:
   anu_slides-revealjs:
     logo: Images/ANU-logo.jpg
-    self-contained: true
+    # self-contained: true # this can blow up the file size and break publication on github pages
     footer: |
       ANU Course Notes: RSES Quarto
     code-links:
