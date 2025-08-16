@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="Slides-SS-SolidPlanets_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Slides-SS-SolidPlanets_files/libs/quarto-html/tabby.min.js"></script>
+<script src="Slides-SS-SolidPlanets_files/libs/quarto-html/popper.min.js"></script>
+<script src="Slides-SS-SolidPlanets_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="Slides-SS-SolidPlanets_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Slides-SS-SolidPlanets_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="Slides-SS-SolidPlanets_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.33">
+
+  <meta name="author" content="Prof Louis Moresi">
+  <title>EMSC 3022</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="Slides-SS-SolidPlanets_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="Slides-SS-SolidPlanets_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="Slides-SS-SolidPlanets_files/libs/revealjs/dist/theme/quarto-b1d4383523e58bfd727452f7dd85d83e.css">
+  <link href="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-image="Images/custom/anu_general.png" data-background-size="contain" class="quarto-title-block center">
+  <h1 class="title">EMSC 3022</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Prof Louis Moresi 
+</div>
+        <p class="quarto-title-affiliation">
+            Australian National University
+          </p>
+    </div>
+</div>
+
+</section>
+<section id="the-earth-as-one-of-many-planets" class="title-slide slide level1 center">
+<h1>The Earth as one of many planets</h1>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p><em>In which we shall look around the solar system to understand which geological processes can be considered universal and which are unique to Earth.</em></p>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="images/AuWorldEQ.png" class="quarto-figure quarto-figure-right"></p>
+</figure>
+</div>
+</div></div>
+</section>
+
+<section id="general-principles-of-geology" class="title-slide slide level1 center">
+<h1>General Principles of Geology</h1>
+<p>Geologists don’t get to choose the experiments they would like to see the Earth perform for them. They compare events from different places (and times) and assume they can generalize processes.</p>
+<center>
+<img data-src="images/nz-map-all.jpg" height="320"> &nbsp;&nbsp;&nbsp; <img data-src="images/san-andreas-transform-plate-boundary-10x.jpg" height="320">
+</center>
+<div style="font-size:75%;">
+<p><em>New Zealand: accreted terranes in colors and cover assemblage in gray. (Graham, Ian J. editor, 2015, A Continent on the Move, New Zealand Geoscience Revealed 2ed., Geoscience Society of New Zealand). W. Coast US: National Parks Service, <a href="https://www.nps.gov/subjects/geology/plate-tectonics-transform-plate-boundaries.htm">Transform Plate Boundaries</a></em></p>
+</div>
+<p>Uniformity of processes from place to place and time to time (<strong>the present is the key to the past</strong> <em>or vice versa</em>)</p>
+</section>
+
+<section>
+<section id="planetary-scale-comparisons" class="title-slide slide level1 center">
+<h1>Planetary Scale Comparisons</h1>
+<center>
+<img data-src="images/orbits-planets-bodies-solar-system.jpg" height="350">
+</center>
+<p>It’s much harder to find analogues when it comes to processes on the scale of the whole planet. We can try to look at other planets in the solar system.</p>
+</section>
+<section id="planetary-scale-comparisons-2" class="slide level2 center">
+<h2>Planetary Scale Comparisons (2)</h2>
+<center>
+<img data-src="images/Moons2Scale.png" height="400">
+</center>
+<p>We can also look at the mini-solar systems of the giant planets. Some of the moons of Jupiter and Saturn are the size of small planets.</p>
+</section>
+<section id="planetary-scale-comparisons-3" class="slide level2 center">
+<h2>Planetary Scale Comparisons (3)</h2>
+<center>
+<img data-src="images/MoonsPlusDwarfPlanets.jpg" height="400"> &nbsp;
+</center>
+<p>There are a number of dwarf planets and asteroids that are of significant size and that we can use as analogues for theories of planetary geology.</p>
+</section>
+<section id="planetary-scale-comparisons-4" class="slide level2 center">
+<h2>Planetary Scale Comparisons (4)</h2>
+<center>
+<img data-src="images/ExoplanetsGalore.jpg" height="400"> &nbsp;
+</center>
+<p>It would be nice if we could add all the exoplanets into this story but, regardless of the detail shown in these images, we only really know mass, radius and surface temperature.</p>
+</section>
+<section id="solar-system-comparisons" class="slide level2 center">
+<h2>Solar System Comparisons</h2>
+<center>
+<img data-src="images/SolarSystem_vs_Trappist.tiff" height="400"> &nbsp;
+</center>
+<p>Look at how close these exoplanets are to their star and look at their orbital periods. Trappist is a cool dwarf star but the habitable zone around it is debated. Do you think these Earth-like images are a fair representation of the weather systems ? Tidal heating, spin-orbit coupling, intense radiation / magnetic fields are likely to affect these planets as they do the moons of Jupiter in our solar system.</p>
+</section></section>
+<section id="virtual-solar-system" class="title-slide slide level1 center">
+<h1>Virtual Solar System</h1>
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/earth?embed=true" allowfullscreen="">
+</iframe>
+</center>
+<p><a href="https://eyes.nasa.gov/staging/apps/solar-system">https://eyes.nasa.gov/staging/apps/solar-system</a></p>
+<aside class="notes">
+<p>There are lots of useful things to view: - Compare sizes - Check to see what views are available (e.g.&nbsp;radar v. optical)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+
+<section>
+<section id="venus" class="title-slide slide level1 center">
+<h1>Venus</h1>
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/venus" allowfullscreen="">
+</iframe>
+</center>
+<p>Link to Nasa <a href="https://solarsystem.nasa.gov/gltf_embed/2342/?height=450&amp;rotate=true&amp;cc=true&amp;fs=true&amp;target=&amp;orbit=%22">Venus Explorer</a> Tool</p>
+</section>
+<section id="venus-topography" class="slide level2 center">
+<h2>Venus Topography</h2>
+<center>
+<video autoplay="" controls="" width="33%">
+<source src="movies/Venus_Topography.mov" type="video/mp4">
+<pre><code>Sorry, your browser doesn't support embedded videos.</code></pre>
+</video>
+</center>
+<div style="font-size:75%;">
+<p><em>Venus topography (from altimeter) superimposed upon the radar image. Cool colours represent low regions, warmer colours are high. Note that the altimeter resolution is much poorer than the imaging.</em></p>
+</div>
+</section>
+<section id="venus-facts" class="slide level2 center">
+<h2>Venus Facts</h2>
+<p>Key Discoveries from the Past Decade (NAS -2023)</p>
+<ul>
+<li><p>Venus is likely a geologically active planet today. Several lines of evidence together suggest that volcanic activity takes place today on Venus, and the planet’s record of tectonic deformation speaks to recent and perhaps even ongoing deformation.</p></li>
+<li><p>Models show that the young surface is consistent with Venus being habitable for billions of years. New climate models indicate that Venus could have had modern-Earth-like conditions until as geologically recently as about a billion years ago, before entering a runaway greenhouse driven by several simultaneous, major volcanic eruptions.</p></li>
+<li><p>Exoplanet discoveries motivate renewed Venus exploration. The ongoing detection of large, rocky exoplanets close to their host stars, especially those that are amenable to having their atmospheres characterized, increasingly requires that we better understand the atmospheric properties and climate history of Venus.</p></li>
+</ul>
+<p><a href="https://science.nasa.gov/venus/venus-facts">Venus Factsheet</a></p>
+</section>
+<section id="venus-landforms---tesserae" class="slide level2 center">
+<h2>Venus Landforms - Tesserae</h2>
+<center>
+<img data-src="images/VenusTessera.jpg" height="400">
+</center>
+<div style="font-size:75%;">
+<p><em>This is an area of Venus located southeast of Fortuna Tessera. The bright, rough terrain is “tessera”; the dark material between it is smoother lava plains. The plains are cut by polygonal cracks and folded by wrinkle ridges. Plains lavas have flowed into linear cracks in the tessera, indicating that the plains lavas came after the tessera.Image: NASA / JPL / mapaplanet.org / Emily Lakdawalla</em></p>
+</div>
+</section>
+<section id="venus-landforms---volcanoes" class="slide level2 center">
+<h2>Venus Landforms - Volcanoes</h2>
+<center>
+<img data-src="images/VenusVolcano.jpg" height="400">
+</center>
+<div style="font-size:75%;">
+<p><em>Maat Mons: computer generated 3D perspective of the surface of Venus. The viewpoint is located ~640 km north of Maat Mons at an elevation of ~3 km above the terrain. Lava flows extend for hundreds of kilometers across the fractured plains shown in the foreground, to the base of Maat Mons. (Image credit: NASA/JPL-Caltech)</em></p>
+</div>
+</section>
+<section id="venus-landforms---active-volcanoes" class="slide level2 center">
+<h2>Venus Landforms - Active Volcanoes</h2>
+<center>
+<img data-src="images/VenusActiveVolcano.jpg" height="400">
+</center>
+<div style="font-size:75%;">
+<p><em>Radar images of a vent that has changed shape. (A) East-looking cycle 1 image and (B) west-looking cycle 2 image of the changed vent and its surroundings. In the cycle 1 image, the vent appears nearly circular and deep with steep walls. In the cycle 2 image, the vent appears larger, irregular in outline, shallower, and nearly filled. The dashed yellow line outlines radar-bright lava flows visible in the cycle 2 image that were not apparent in the cycle 1 image.</em></p>
+</div>
+</section>
+<section id="venus-landforms---coronae" class="slide level2 center">
+<h2>Venus Landforms - Coronae</h2>
+<center>
+<img data-src="images/VenusArtemisCorona.jpg" height="400">
+</center>
+<div style="font-size:75%;">
+<p><em>This Magellan image is centered on 30 degrees south latitude, 135 degrees east longitude, spans 3500 kilometers from east to west (left to right), and shows the near-circular trough of Artemis Chasma. Its circular shape and size (2100 km in diameter) make Artemis the largest corona identified to date on the surface of Venus.</em></p>
+</div>
+</section></section>
+<section>
+<section id="mars" class="title-slide slide level1 center">
+<h1>Mars</h1>
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/mars" allowfullscreen="">
+</iframe>
+</center>
+<p>Link to Nasa <a href="https://solarsystem.nasa.gov/gltf_embed/2372/?height=450&amp;rotate=true&amp;cc=true&amp;fs=true&amp;target=&amp;orbit=">Mars Explorer</a> Tool</p>
+</section>
+<section id="mars-topography" class="slide level2 center">
+<h2>Mars Topography</h2>
+<center>
+<video autoplay="" controls="" width="33%">
+<source src="movies/MarsTopoCompressed.m4v" type="video/mp4">
+<pre><code>Sorry, your browser doesn't support embedded videos.</code></pre>
+</video>
+</center>
+<div style="font-size:75%;">
+<p><em>Mars topography (from MOLA altimetry). Cool colours represent low regions, warmer colours are high. Note that the altimeter resolution is always significantly poorer than the surface imaging.</em></p>
+</div>
+</section>
+<section id="mars-facts" class="slide level2 center">
+<h2>Mars Facts</h2>
+<p>Key Discoveries from the Past Decade (NAS -2023)</p>
+<ul>
+<li><p>Detection of organic matter in the lake sediments of Gale Crater indicating past indigenous organic chemistry in a martian habitable environment.</p></li>
+<li><p>Presence of massive mid-latitude deposits of water ice. There are large areas in Mars’s northern lowlands where hundreds-meter thick ice slabs occur meters below the surface.</p></li>
+<li><p>Possibility of current or recent near-surface liquid water. Enrichments of salt in near-surface rocks and sediments and features that change seasonally with warm temperatures suggest small amounts of liquid water shaping martian geology even in the modern cold, dry climate regime.</p></li>
+<li><p>Multiple types of habitable environments were widespread across ancient Mars. Evidence for lakes, rivers, playas, groundwater systems, and hydrothermal systems of varying temperatures and water chemistries, preserved in the rock record at thousands of locations, an environmental diversity similar to Earth.</p></li>
+</ul>
+</section>
+<section id="mars-facts-pt-2" class="slide level2 center">
+<h2>Mars Facts (pt 2)</h2>
+<p>Key Discoveries from the Past Decade (NAS - 2023) pt 2</p>
+<ul>
+<li><p>Kilometer-thick layers of H2O ice and CO2 ice in the martian polar caps formed less than 10 million years ago. Radar analyses of polar deposits, coupled with climate models, indicate that much of the ice thickness of Mars’s poles is a product of <em>recent</em> climate change.</p></li>
+<li><p>Loss of H<sub>2</sub>O and CO<sub>2</sub> to space and sequestration in crustal minerals were major factors in the evolution of the atmosphere and climate. Spacecraft measurements coupled with modeling show that Mars’s climate became drier and colder because of both escape of volatiles to space and their sequestration in minerals in its crust.</p></li>
+<li><p>Data from the InSight lander recorded frequent marsquakes up to magnitude 4 that allowed probing the martian interior: a thick, fractured crust, mantle structure, with a liquid core that includes a sizeable fraction of light elements.</p></li>
+<li><p>Ancient alkali-silica-rich igneous rocks. Data from orbiters and Gale crater have discovered more than just basaltic rocks on Mars. High alkali and silica rocks indicate more differentiated magmas.</p></li>
+<li><p>Mars is active. Dynamic activity includes: migrating sand dunes, recurring slope lineae formation, changing ice landforms, methane release, and marsquakes.</p></li>
+</ul>
+<p><a href="https://science.nasa.gov/mars/facts">Mars Factsheet</a></p>
+</section>
+<section id="mars-landforms---volcanoes" class="slide level2 center">
+<h2>Mars Landforms - Volcanoes</h2>
+<center>
+<img data-src="images/Mars_OlympusMons_Getty.jpg" height="300"> <img data-src="images/Mars_Tharsis_Valles_Marineris_MOLA.jpg" height="300">
+</center>
+<div style="font-size:75%;">
+<p><em>Olympus Mons (left), the largest volcano in the Tharsis region (right) and, we believe, the largest volcano in the solar system</em></p>
+</div>
+</section>
+<section id="mars-landforms---tectonic-rifting" class="slide level2 center">
+<h2>Mars Landforms - Tectonic Rifting</h2>
+<center>
+<img data-src="images/Mars_Valles_Marineris_ESA_Annotated.png" height="400">
+</center>
+<div style="font-size:75%;">
+<p><em>ESA’s Mars Express High Resolution Stereo Camera (HRSC) global colour mosaic of Mars. Image shows the canyon system <strong>Valles Marineris</strong> with annotated surface details: sulphate deposits, haze and fog, and cloud cover. This tectonic feature stretches more than 4000 km east-west and up to 700 km north-south, and is the biggest and most dramatic canyon system in the Solar System.</em></p>
+</div>
+</section>
+<section id="mars-landforms---landslides" class="slide level2 center">
+<h2>Mars Landforms - Landslides</h2>
+<center>
+<p><img data-src="images/Mars_SlopeSlump.jpg" height="400"> <img data-src="images/Mars_Avalanche.jpg" height="400"></p>
+</center>
+<div style="font-size:75%;">
+<p><em>(Left) Lobate flows / landslides from a Martian scarp. (Right)A Mars Avalanche, taken by NASAs HiRISE instrument on the Mars Reconnaisance Orbiter (Credit: NASA/HiRISE)</em></p>
+</div>
+</section>
+<section id="mars-landforms---sand-dunes" class="slide level2 center">
+<h2>Mars Landforms - Sand Dunes</h2>
+<center>
+<img data-src="images/Mars_CorduroySandDunes.jpg" height="400">
+</center>
+<div style="font-size:75%;">
+<p><em>This image from NASA’s Mars Reconnaissance Orbiter (MRO) shows the permanent polar cap of Mars, encircled by sand dunes and looking like pulled threads, these dunes march across a fabric of patterned ground.</em></p>
+</div>
+</section>
+<section id="mars-landforms---ancient-rivers" class="slide level2 center">
+<h2>Mars Landforms - Ancient Rivers</h2>
+<center>
+<img data-src="images/Mars_jezero-crater-delta-paleochannel.jpg" height="400">
+</center>
+<div style="font-size:75%;">
+<p><em>The grooved channels of an ancient river delta thread through Jezero crater on Mars. Credit: NASA/JPL-Caltech/MSSS/JHUAPL</em></p>
+</div>
+<p>Less that 1 Gyr ago, there was liquid water flowing across Mars. This has significant implications for atmospheric pressure and temperature at that time.</p>
+<p>Duncombe, J. (2019), What ancient rivers on Mars reveal about its “great drying”, Eos, 100, https://doi.org/10.1029/2019EO119487. Published on 27 March 2019.</p>
+</section>
+<section id="mars-landforms---ancient-rivers-2" class="slide level2 center">
+<h2>Mars Landforms - Ancient Rivers (2)</h2>
+<center>
+<img data-src="images/Mars_TopographyDriedOutRivers.jpg" height="400">
+</center>
+<div style="font-size:75%;">
+<p>*This colour-coded topographic view shows the relative heights of the terrain in and around a network of dried-up valleys on Mars.</p>
+<p>Lower parts of the surface are shown in blues and purples, while higher altitude regions show up in whites, yellows, and reds, as indicated on the scale to the top right. This view is based on a digital terrain model of the region, from which the topography of the landscape can be derived. It comprises data obtained by the High Resolution Stereo Camera on Mars Express on 19 November 2018 during Mars Express orbit 18831. Credit:ESA/DLR/FU Berlin*</p>
+</div>
+</section>
+<section id="mars-landforms---evidence-of-groundwater" class="slide level2 center">
+<h2>Mars Landforms - Evidence of Groundwater</h2>
+<center>
+<img data-src="images/Mars_EarthBeach_MarsCraterFlows.jpg" height="400">
+</center>
+<div style="font-size:75%;">
+<p><em>A) Beach drainage pattern on the order of 1 meter (Source: https://epod.usra.edu/blog/2017/01/beach-drainage.html), B) Martian “alcoves” suggesting groundwater seepage.</em></p>
+</div>
+</section>
+<section id="mars-landforms---evidence-of-groundwater-2" class="slide level2 center">
+<h2>Mars Landforms - Evidence of Groundwater (2)</h2>
+<center>
+<img data-src="images/Mars_Warm_Season_Flows_on_Slope_in_Horowitz_Crater.gif" height="400">
+</center>
+<div style="font-size:75%;">
+<p><em>This animationshows warm-season features that might be evidence of salty liquid water active on Mars today. Evidence for that possible interpretation is presented in a report by McEwen et al.&nbsp;in the Aug.&nbsp;5, 2011, edition of Science.</em></p>
+</div>
+</section></section>
+<section>
+<section id="mercury" class="title-slide slide level1 center">
+<h1>Mercury</h1>
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/mercury" allowfullscreen="">
+</iframe>
+</center>
+<p>Link to Nasa <a href="https://solarsystem.nasa.gov/gltf_embed/2369/?height=450&amp;rotate=true&amp;cc=true&amp;fs=true&amp;target=&amp;orbit=">Mercury Explorer</a> Tool</p>
+</section>
+<section id="mercury-facts" class="slide level2 center">
+<h2>Mercury Facts</h2>
+<p>Key Discoveries from the Past Decade (NAS - 2023)</p>
+<ul>
+<li><p>Mercury is a volatile-rich world. Despite being closer to the Sun, concentrations of volatile elements are more abundant on Mercury than on Venus or Earth, and are comparable with Mars.</p></li>
+<li><p>Mercury’s offset magnetic field and dynamic magnetosphere were revealed by MESSENGER. Mercury’s large metallic core generates an axially dipolar dynamo magnetic field that is 1) low intensity relative to Earth’s and 2) offset by approximately 20% of the planet’s radius to the north.</p></li>
+<li><p>Permanently shadowed regions near Mercury’s poles hold abundant water ice. Ice deposits exist either at the surface in a relatively pure, thick layer or beneath organic-rich lag deposits. Water ice may have been delivered by comets or asteroids or micrometeoroids, from the solar wind, or outgassing from Mercury’s interior.</p></li>
+<li><p>Mercury’s oldest surfaces contain high abundances of carbon that may be remnants of a primary graphite flotation crust from an early magma ocean. Much of the surface, however, was subsequently covered by extensive floods of lava of varying composition.</p></li>
+</ul>
+<p><a href="https://science.nasa.gov/mercury/facts/">Mercury Factsheet</a></p>
+</section>
+<section id="mercury---evidence-of-cooling-and-contraction" class="slide level2 center">
+<h2>Mercury - Evidence of Cooling and Contraction</h2>
+<center>
+<img data-src="images/MercuryContractionFeature.png" height="400">
+</center>
+<div style="font-size:75%;">
+<p><em>Giant tectonic landforms like Carnegie Rupes, which is more than 2 km high in places, provide evidence that Mercury shrunk as it cooled, creating a lobate scarp (arrowed). The image has been color-coded to indicate differences in topography: regions in red are higher standing terrain, regions in blue lower. SOURCE: Courtesy of NASA/Johns Hopkins University/Carnegie Institution of Washington</em></p>
+</div>
+</section>
+<section id="mercury-a-cratered-impacted-body" class="slide level2 center">
+<h2>Mercury, a Cratered / Impacted Body</h2>
+<center>
+<img data-src="images/Mercury_CalorisBasin.png" height="350"> &nbsp;&nbsp; <img data-src="images/Mercury_ShockTerrain.jpg" height="350">
+</center>
+<div style="font-size:75%;">
+<p><em>Caloris Basin (left) is one of the largest impact craters in the solar system (1500 km diameter). At the antipode is a region of “shocked terrain” (or “weird terrain” that may be due to re-focusing of the impact energy</em></p>
+</div>
+<p>The inner-solar system location of Mercury means that impacts have very high kinetic energy and lead to a highly cratered surface.</p>
+</section>
+<section id="mercury---volatiles-near-the-surface" class="slide level2 center">
+<h2>Mercury - Volatiles Near the Surface</h2>
+<center>
+<img data-src="images/MercuryCraterVolatiles.png" height="400">
+</center>
+<div style="font-size:75%;">
+<p><em>Despite their hot surroundings, permanently shadowed regions near Mercury’s poles stay cold enough to host abundant deposits of water ice. SOURCE: Courtesy of N.L. Chabot with MESSENGER data from NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington; and Armytage et al.&nbsp;(2018).</em></p>
+</div>
+</section></section>
+<section>
+<section id="earths-moon" class="title-slide slide level1 center">
+<h1>Earth’s Moon</h1>
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/earth/moons/moon" allowfullscreen="">
+</iframe>
+</center>
+</section>
+<section id="earths-moon-facts" class="slide level2 center">
+<h2>Earth’s Moon Facts</h2>
+<p>Key Discoveries from the Past Decade (NAS -2023)</p>
+<ul>
+<li><p>GRAIL produced the highest resolution gravity field measurements of any object (including Earth). Data revealed the Moon’s crust to be far more fractured and porous than expected and exposed previously undiscovered global-scale magmatic-tectonic features, elucidated the formation and evolution of impact basins, and constrained models for both the bulk composition and formation of the Moon.</p></li>
+<li><p>New analyses of lunar samples provide insights into its formation and physicochemical evolution. Volatile elements are depleted in the lunar interior. Essentially identical isotopic compositions between Earth and Moon for nonvolatile elements strongly challenges prior Earth–Moon origin models.</p></li>
+<li><p>Additionally, paleomagnetic studies of lunar samples have revealed that the Moon once generated a core dynamo that persisted for over 2 billion years and had surface field strengths comparable to the current Earth.</p></li>
+<li><p>Geochronological studies of lunar samples have elucidated the Moon’s formation age, which ties into our understanding of the timing of giant impacts during planetary accretion.</p></li>
+</ul>
+</section>
+<section id="earths-moon-facts-2" class="slide level2 center">
+<h2>Earth’s Moon Facts (2)</h2>
+<p>Key Discoveries from the Past Decade (NAS -2023)</p>
+<ul>
+<li><p>Lunar volcanism was thought to have ended well over 1 billion years ago, but images from Lunal Reconaissance Orbiter revealed irregular patches of basaltic deposits that may have erupted within the past 100 million years.</p></li>
+<li><p>Newly discovered tectonic features indicate locations of eruptions may be influenced by tidal interactions with Earth and orbital recession away from Earth, and movement along these faults likely continues into the present day.</p></li>
+<li><p>images of craters that have formed after LRO began its mission indicate that impacts affect the surface far from the impact site, and secondary cratering overturns regolith at rates more than 100 times higher than previously thought.</p></li>
+<li><p>Water ice lies at the surface within some regions of permanent shadow at the Moon’s poles. New results confirm that at least some polar H is present as H2O, although its origin and abundance is still not known.</p></li>
+</ul>
+<p><a href="https://science.nasa.gov/moon/facts/">Earth’s Moon Factsheet</a></p>
+</section>
+<section id="earths-moon---topography" class="slide level2 center">
+<h2>Earth’s Moon - Topography</h2>
+<center>
+<video autoplay="" controls="" width="33%">
+<source src="movies/Moon_lola_topo_400.mov" type="video/mp4">
+<pre><code>Sorry, your browser doesn't support embedded videos.</code></pre>
+</video>
+</center>
+<div style="font-size:75%;">
+<p><em>Lunar topography (from LOLA altimeter). Cool colours represent low regions, warmer colours are high.</em></p>
+</div>
+<p>Topography is dominated by craters and smooth areas known as the <em>maria</em>. Note that the far side (not dark side) has fewer / smaller maria.</p>
+</section>
+<section id="earths-moon-surface-features-craters" class="slide level2 center">
+<h2>Earth’s Moon Surface Features: Craters</h2>
+<center>
+<img data-src="images/Moon_ESA_Craters.jpg" height="350"> &nbsp;&nbsp;
+</center>
+<div style="font-size:70%;">
+<p>This image shows a crater-filled region in the northeastern part of the Moon. To the left of the frame is the small Keldysh crater. Below and to the right of Keldysh is the small depression of Hercules F, which sits to the left of the faint and eroded rim of Atlas E. The largest and most prominent feature, visible towards the top right of the frame, is Atlas crater.</p>
+<p>Atlas is ~2km deep and ~90 km in diameter. The crater floor is peppered with hills, rifts and fractures that surround a clearly visible central mountain (seen casting a shadow). Some of the crater’s features are thought to have been influenced or shaped by volcanism e.g.&nbsp;the branching web of deep fissures and cracks stretching throughout the crater, known as Rimae Atlas. (ESA)</p>
+</div>
+</section>
+<section id="earths-moon-surface-features-maria" class="slide level2 center">
+<h2>Earth’s Moon Surface Features: Maria</h2>
+<center>
+<img data-src="images/Moon_MareImbrium.jpg" height="330"> &nbsp;&nbsp; <img data-src="images/Moon_MareIngenii-Cont.jpg" height="330">
+</center>
+<div style="font-size:70%;">
+<p>Left: Mare Imbrium. The largest basin at over 1100km diameter. The basin is surrounded by a ring of mountains, rising up as much as 7km above the mare floor, and there are signs of ejecta radiating out as far as 800km. Right: Mare Ingenii. On the far side of the Moon, 300km diameter, and part of the South Pol-Aitken basin. Swirls of light and dark volcanic material, the pattern of which may reflect the localised magnetic field of the region when it formed.</p>
+</div>
+<p>Lunar maria are the dark topographical features that can be observed on the lunar surface, covering about 15% of the Moon’s crust. They are impact basins created by collisions with cosmic debris that filled with lava and other lunar material between 1-4 billion years ago.</p>
+</section></section>
+<section>
+<section id="jupiters-moons" class="title-slide slide level1 center">
+<h1>Jupiter’s Moons</h1>
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/jupiter/moons" allowfullscreen="">
+</iframe>
+</center>
+</section>
+<section id="jupiters-moons-facts" class="slide level2 center">
+<h2>Jupiter’s Moons Facts</h2>
+<p>Jupiter’s four large Galilean moons reveal the fundamental importance of gravitational tides in generating internal heat, producing the giant volcanoes on Io and melting ice on Europa and Ganymede.</p>
+<ul>
+<li><p><a href="https://science.nasa.gov/jupiter/moons/io/facts">Galilean Moons Factsheet: Io</a></p></li>
+<li><p><a href="https://science.nasa.gov/jupiter/moons/callisto/facts">Galilean Moons Factsheet: Callisto</a></p></li>
+<li><p><a href="https://science.nasa.gov/jupiter/moons/ganymede/facts">Galilean Moons Factsheet: Ganymede</a></p></li>
+<li><p><a href="https://science.nasa.gov/jupiter/moons/europa/facts">Galilean Moons Factsheet: Europa</a></p></li>
+</ul>
+<p>These moons orbit close to a giant, active planet with strong gravity, intense radiation and magnetic fields. They might turn out to be good analogues to some of the hot exoplanets we saw earlier.</p>
+<!-- We have to stop somewhere !!
+# Saturns Moons
+
+At Saturn, we see a suite of smaller, ice-rich moons of uncertain age that likely experienced tremendous dynamical upheaval (some of which are still active today), one large ice-rock world, and a number of smaller outer captured moons. Saturn’s lone large moon, Titan, has a dense nitrogen-methane atmosphere, with wind-blown dunes and organic precipitation producing Earth-like river channel systems, lakes and seas, suggesting a world akin to an early Earth in hibernation in the colder regions of the outer solar system.
+-->
+</section></section>
+<section>
+<section id="earth" class="title-slide slide level1 center">
+<h1>Earth</h1>
+<center>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/apps/earth/?embed=true#/vital-signs/visible-earth/viirs-infrared-daily" allowfullscreen="">
+</iframe>
+</center>
+</section>
+<section id="earth-facts" class="slide level2 center">
+<h2>Earth Facts</h2>
+<p>We think of the Earth a little differently from the other planets, and so, usually does NASA. But their factsheet follows the same pattern and it is interesting to think about the Earth as “just another planet”.</p>
+<ul>
+<li><a href="https://science.nasa.gov/earth/facts/">Earth factsheet</a></li>
+</ul>
+<p>Earth has a very hospitable temperature and mix of chemicals that have made life abundant here. Most notably, Earth is unique in that most of our planet is covered in liquid water, since the temperature allows liquid water to exist for extended periods of time. Earth’s vast oceans provided a convenient place for life to begin about 3.8 billion years ago.</p>
+<p>Some of the features of our planet that make it great for sustaining life are changing due to the ongoing effects of climate change.</p>
+</section>
+<section id="earth---topography" class="slide level2 center">
+<h2>Earth - Topography</h2>
+<center>
+<video autoplay="" controls="" width="45%">
+<source src="movies/etopoimage.mp4" type="video/mp4">
+<pre><code>Sorry, your browser doesn't support embedded videos.</code></pre>
+</video>
+</center>
+<div style="font-size:75%;">
+<p><em>ETOPO1 dataset rendered to distinguish bathymetry (depth below sea level) from topography (height above sea level)</em></p>
+</div>
+<p>Topography is bimodal (true of other planets as well) with many other surface features correlated with the continental / oceanic divide.</p>
+</section></section>
+<section>
+<section id="unique-datasets-for-planet-earth" class="title-slide slide level1 center">
+<h1>Unique Datasets for Planet Earth</h1>
+<center>
+<img data-src="https://assets.weforum.org/editor/bMinbkYdRsEqYe-Xq1_qPULVYWF-Ac5m0eR523VtJQM.jpeg" height="425">
+</center>
+</section>
+<section id="earth---thickness-of-the-lithosphere" class="slide level2 center">
+<h2>Earth - Thickness of the Lithosphere</h2>
+<center>
+<img data-src="images/LABDepth.png" height="425">
+</center>
+<p>This map shows the lithospheric thickness coloured as though it refers to temperature (thin lithosphere is in warm colours, thick is in cool colours) which does have some physical relevance. The greyscale is topography.</p>
+</section>
+<section id="earth---thickness-of-the-continental-lithosphere" class="slide level2 center">
+<h2>Earth - Thickness of the Continental Lithosphere</h2>
+<center>
+<img data-src="images/LithosphereThickness.png" height="425">
+</center>
+<p>A similar map that <em>contours</em> the thickest parts of the lithosphere (scale is in km) and leaves out the oceans altogether.</p>
+</section>
+<section id="earth---relative-thickness-of-crust-and-lithosphere" class="slide level2 center">
+<h2>Earth - Relative thickness of Crust and Lithosphere</h2>
+<center>
+<img data-src="images/LithosphereRelativeThickness.svg" height="425">
+</center>
+<p>This map shows the relative thickness of the crust and the lithosphere (thick crust is dark). You can immediately see how important the mechanical structure of the lithosphere is when it comes to the response to geological stresses. <em>The coloured dots are earthquake hypocentres coloured by depth and mostly show where the slabs are located.</em></p>
+</section>
+<section id="earth---global-stress" class="slide level2 center">
+<h2>Earth - Global Stress</h2>
+<center>
+<img data-src="images/World_Stress_Map.jpeg" height="350">
+</center>
+<p>The World Stress Map (WSM) 2016 displays the contemporary crustal stress orientation in the upper 40 km based on the WSM database release 2016. Lines show the orientation of maximum horizontal stress. The colours indicate whether stresses are associated with a) Normal faulting, b) strike-slip faulting, or c) thrust faulting.Note that the <strong>magnitude</strong> of the stress is not part of this map.</p>
+</section>
+<section id="earth---global-seismicity" class="slide level2 center">
+<h2>Earth - Global Seismicity</h2>
+<p>The magnitude of the stress is related to the rate of seismic energy release because this is a measure of those places which are under enough stress for the lithosphere to “break”.</p>
+<center>
+<video autoplay="" controls="" width="75%">
+<source src="movies/GlobalEQCumulative.m4v" type="video/mp4">
+<pre><code>Sorry, your browser doesn't support embedded videos.</code></pre>
+</video>
+</center>
+<p>Usually this takes the form of a fault that already exists sliding because the shear stresses are large compared to the confining pressure.</p>
+</section>
+<section id="earth---global-strain-rate" class="slide level2 center">
+<h2>Earth - Global Strain rate</h2>
+<center>
+<img data-src="images/GlobalStrainRate.png" height="350">
+</center>
+<p>The strain rate is a measure of how fast deformation is taking place. Strain rate is a measure of the rate of change of length (units are <span class="math inline">\(s^{-1}\)</span>) <em>and</em> it is a tensor: there are multiple components that represent normal and shear strains. The measure shown here is an average (the second invariant).</p>
+<p>The rate of deformation is related to two things: the stress applied and the strength of the material.</p>
+<p><small> Kreemer, C., Blewitt, G., &amp; Klein, E. C. (2014). A geodetic plate motion and Global Strain Rate Model. Geochemistry, Geophysics, Geosystems, 15(10), 3849–3889. https://doi.org/10/f6p92p </small></p>
+</section>
+<section id="earth---global-volcanism" class="slide level2 center">
+<h2>Earth - Global Volcanism</h2>
+<center>
+<img data-src="images/GlobalVolcanismMap.png" height="350">
+</center>
+<p>Volcanic activity is distributed similarly to that of seismicity and mostly occurs at convergent and divergent plate boundaries. There is also a significant level of intra-plate volcanism. Magma pathways within the crust are influenced by the stress field and we can analyse volcanic structures to determine the ambient stress field at the time they were formed.</p>
+<p><small> Make your own map from the NOAA natural hazards interactive web page: <a href="https://maps.ngdc.noaa.gov/viewers/hazards/?layers=3">https://maps.ngdc.noaa.gov/viewers/hazards</a> </small></p>
+</section>
+<section id="earth---global-heat-flow" class="slide level2 center">
+<h2>Earth - Global Heat-flow</h2>
+<center>
+<img data-src="images/GlobalHeatFlowPoints.png" height="350">
+</center>
+<p>Raw data compiled by Davies &amp; Davies 2013. <em>There are really not very many reliable measurements</em>.</p>
+</section>
+<section id="earth---surface-motions" class="slide level2 center">
+<h2>Earth - Surface Motions</h2>
+<center>
+<img data-src="images/PlateMotionsMollweide.png" height="350">&nbsp;&nbsp;
+</center>
+<p>Directly observed plate motions (GPS, satellite ranging, very-long-baseline interferometry). Also shown, the strain-rate field, contoured to show highlight regions of high deformation rate.</p>
+</section>
+<section id="earth---magnetic-field" class="slide level2 center">
+<h2>Earth - Magnetic Field</h2>
+<center>
+<img data-src="images/Earth_MagfieldradialCMB-potsdam.png" height="250">&nbsp;&nbsp; <img data-src="images/Earth_Magfieldradial_Surface_potsdam.png" height="250">
+</center>
+<p>The Earth has a strong, dominantly dipolar, magnetic field which reverses chaotically but relatively regularly. These two features together allow</p>
+<ul>
+<li>paleo-latitudes to be determined</li>
+<li>ocean floor ages to be determined.</li>
+</ul>
+</section>
+<section id="earth---sea-floor-magnetisation" class="slide level2 center">
+<h2>Earth - Sea Floor Magnetisation</h2>
+<center>
+<img data-src="images/VineMatthews_JDFstripes.png" height="400"> &nbsp; &nbsp; <img data-src="images/diagram-magnetic-reversals-ocean-ridge-800x600.png" height="400">
+</center>
+<p>The morphology and bathymetry information comes to life when combined with the magnetic intensity maps of the mid-ocean ridge system. Chaotic magnetic reversal patterns combined with “steady” spreading produces a symmetric stripe-pattern that reflects the aging of the sea floor.</p>
+</section>
+<section id="earth---sea-floor-age" class="slide level2 center">
+<h2>Earth - Sea Floor Age</h2>
+<center>
+<img data-src="images/AgeGrid_plate_carree.png" height="400">
+</center>
+<p>Age distribution in the ocean floor is systematic and regular. It ranges from 0 (forming now) to ~200Myr. (credit: Earthbyte.org / Dietmar Müller)</p>
+</section>
+<section id="earth---seismic-imaging-tomography" class="slide level2 center">
+<h2>Earth - Seismic Imaging / Tomography</h2>
+<center>
+<img data-src="images/Ramanowicz2008Nature_TomographyComparisons.jpg" height="400">
+</center>
+<p>Each column of images represents a different model of mantle shear-velocity structure (using various data sources) shown at three representative depths (140 km, 925 km and 2,770 km). From Ramanowicz, 2008, Nature.</p>
+</section>
+<section id="earth---sedimentary-records" class="slide level2 center">
+<h2>Earth - Sedimentary Records</h2>
+<center>
+<img data-src="images/Source-to-sink-block-diag.jpg" height="360">
+</center>
+<p>The linkages among the components of sediment routing systems: the source area (erosion), the transfer zone (rivers etc), and sinks (basins, deltas). In each zone, sediment may be stored temporarily, or accumulate in sinks if there is sufficient long-term accommodation.</p>
+<p>See: <a href="https://www.geological-digressions.com/source-to-sink-sediment-routing-systems/">Geological Digressions: Source to Sink</a></p>
+</section>
+<section id="earth---summary" class="slide level2 center">
+<h2>Earth - Summary</h2>
+<p>We have huge advantages in understanding the Earth because we have nearly unlimited access to the surface, limited access to the subsurface by drilling, digging, sampling. We can go “wherever we want” to take measurements or samples.</p>
+<center>
+<img data-src="https://eospso.nasa.gov/sites/default/files/u15/fleet-swoosh-082922_Sept27.png" height="300">
+</center>
+<p>We can set up imaging experiments that have long timescales and global reach. On other planets, we have shorter experiments and everything is significantly limited in terms of duration and access.</p>
+<p>We have huge fleets of observing satellites and remote telemetry of discrete sensors.</p>
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="images/ANU-logo.jpg" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>EMSC - 3022 - 2025/S2 !</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="Slides-SS-SolidPlanets_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="Slides-SS-SolidPlanets_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'h.v',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: false,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'concave',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
+            }
+            return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
