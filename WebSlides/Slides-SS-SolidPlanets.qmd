@@ -1,11 +1,11 @@
 ---
-title: EMSC 3022
+title: Solar System Tourist Drive
 author: Prof Louis Moresi
 institute: Australian National University
 # date: '666-6-6'
 
 title-slide-attributes:
-  data-background-image: Images/custom/anu_general.png
+  data-background-image: images/custom/anu_general.png
   data-background-size: contain
 
 format:
@@ -14,7 +14,7 @@ format:
     self-contained: false
     embed-resources: false
     footer: |
-            EMSC - 3022 - 2025/S2 !
+      EMSC - 3022 - 2025/S2
 
 date-format: long
 lang: en
@@ -106,10 +106,11 @@ Look at how close these exoplanets are to their star and look at their orbital p
 # Virtual Solar System
 
 <center>
-<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/earth?embed=true" allowfullscreen></iframe>
+<iframe width="800" height="450" src="https://eyes.nasa.gov/staging/apps/solar-system/#/earth?embed=true" allowfullscreen>
+</iframe>
 </center>
 
-[https://eyes.nasa.gov/staging/apps/solar-system](https://eyes.nasa.gov/staging/apps/solar-system)
+[If the NASA App does not load, click here !](https://eyes.nasa.gov/staging/apps/solar-system)
 
 ::: {.notes}
 There are lots of useful things to view:
@@ -706,3 +707,10 @@ We have huge advantages in understanding the Earth because we have nearly unlimi
 We can set up imaging experiments that have long timescales and global reach.  On other planets, we have shorter experiments and everything is significantly limited in terms of duration and access.
 
 We have huge fleets of observing satellites and remote telemetry of discrete sensors.
+
+# Index
+
+ - [Slides: Solar System Solid Planets](Slides-SS-SolidPlanets.html)
+ - [Slides: Solid Planets 1](Slides-PlanetaryGeophysics-1.html)
+ - [Slides: Solid Planets 2](Slides-PlanetaryGeophysics-2.html)
+ - [Slides: Solid Planets 3](Slides-PlanetaryGeophysics-3.html)

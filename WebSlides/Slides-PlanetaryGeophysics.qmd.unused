@@ -1,0 +1,2127 @@
+---
+title: Probing Planetary Interiors 1
+author: Louis Moresi, Penny King
+institute: 'RSES'
+date: '2025-07-01'
+
+title-slide-attributes:
+  data-background-image: images/custom/anu_general.png
+  data-background-size: contain
+
+format:
+  anu_slides-revealjs:
+    logo: images/ANU-logo.jpg
+    self-contained: false
+    embed-resources: false
+    footer: |
+      EMSC - 3022 - 2025/S2
+
+date-format: long
+lang: en
+# jupyter:
+#   jupytext:
+#     text_representation:
+#       extension: .qmd
+#       format_name: quarto
+#       format_version: '1.0'
+#       jupytext_version: 1.16.1
+#   kernelspec:
+#     display_name: Python 3 (ipykernel)
+#     language: python
+#     name: python3
+---
+
+
+# Probing Planetary Interiors & Tectonics
+
+
+<center>
+![](images/PK/PK4LM_0.jpg){height="400px"}
+</center>
+
+ - How do we understand the interiors of planets ?
+ - Heat flow
+ - Introduction to plate tectonics
+ - Tectonic features beyond Earth
+ - Different types of crust
+
+# Formation of a planet
+
+_To understand a planet’s internal energy & tectonic features recall how it formed…_
+
+<center>
+<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/7zm9eEyMfXQ?si=DN8j4E-Z0bfnvloJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+
+Solar nebula forms from / within a giant cloud of dust & gas leftover from an earlier supernova explosion. Gravitational contraction begins, gravitational potential energy is converted to kinetic energy, angular momentum conservation leads to a spin-up of the system. Grains condense, aggregate, collide and planetessimals accrete. This continues until recognisable planets start to emerge.
+
+## Self Compression
+
+<center>
+![](images/PK/PK4LM-SelfCompresion.png){height="400px"}
+
+<small>_Marshak, 2001_</small>
+</center>
+
+The gravitational self-attraction for the newly-formed planet compresses the material and increases its density. This also results in heating.
+
+## Differentiation — aka separation into chemically-distinct layers
+
+<center>
+![](images/PK/PK4LM_4.jpg){height="400px"}
+
+<small>_Press et al, 2004_</small>
+</center>
+
+The planet will also tend to differentiate — heavy iron settling to the core, lighter silicate material separating upwards. This does assume that _buoyancy forces_ can overcome the _material strength_. Typically, this is easier in larger bodies where the gravity is higher (but the material strength does not change much).
+
+
+# Thermal State of the Earth
+
+<center>
+![](images/PK/PK4LM_2.png){height="280px"}
+
+</center>
+
+Sources of energy:
+
+ - Accretion & self-compression (kinetic energy of accreted objects)
+ - Differentiation / segregation (graviational potential energy)
+ - Radiogenic isotopes
+ - Phase changes / solidification (latent heat)
+ - Tidal dissipation (gravitational interactions / deforming the planet)
+
+The Earth is cooling today. The heat energy that is lost from the interior is what drives
+the tectonic cycle. The global heat loss rate is about 44 TW.
+
+## Earth's Cooling in Context
+
+Compare 44 TW to the Solar insolation etc.
+
+
+# Layers in Terrestrial Planets
+
+<center>
+![](images/PK/PK4LM_5.gif){height="450px"}
+
+_image ©Dr. Anne E. Egger CC BY-NC-SA 4.0_
+</center>
+
+ - Chemical or compositional — crust, mantle, D'', core.
+ - Mechanical strength — lithosphere, asthenosphere, transition zone, deep mantle, liquid (outer) core, solid (inner) core.
+
+## Layers in Terrestrial Planets
+
+<center>
+![](images/PK/Peaches.png){height="450px"}
+
+_[link to original image](https://search.library.wisc.edu/digital/ATQJA6V5SGUREA8G)_
+
+</center>
+
+For a good sense of scale: here is half a peach compared to Earth’s layers.
+
+Outer skin & flesh differ in composition but behave similarly in terms of their
+mechanics (deformation in response to stress)
+
+# Temperatures, Pressures, Mechanical Strength
+
+<center>
+![](images/PK/PK4LM_8.jpg){height="300px"}
+
+_Temperature with Depth (Pressure)_
+</center>
+
+Lower pressure: more likely to see cracks / faults at every scale, fracturing, breaking etc. Elastic stresses can be stored for a long time and can build up over time.
+
+Higher pressure: deformation is less likely to be through fractures, elastic stresses tend to relax away, deformation can be fluid-like (slowly creeping). Melting is less likely when pressure increases.
+
+Earth’s interior is almost entirely solid, except for the outer core and a few pockets of semi-molten rock near the surface.
+
+## Temperatures, Pressures, Mechanical Strength
+
+<center>
+![](images/PK/PK4LM-Geotherms.png){height="360px"} &nbsp;&nbsp;&nbsp;
+
+_The "Geotherm" (temperature at depth) is not the same everywhere, and continents are systematically different from oceans – Skinner & Murck (2011)._
+</center>
+
+Oceans have: thin crust, lower concentration of radiogenic elements, are relatively young lithosphere.
+
+Continents are: quite variable but generally thicker crust, often higher radiogenic element content, often older than oceans, sometimes very much older.
+
+
+# Topography
+
+<center>
+
+![](images/PK/PK4LM_13.jpg){style="height:350px; "}
+
+</center>
+
+The topography of the Earth: all the regions that stand high are regions with thicker, lighter crust. This is true in a broad brush sense (continents where crustal density is $\sim 2700kg/m^3$  v. oceans where crustal density is $\sim 3200kg/m^3$) and when we focus in on smaller continental regions (mountains are high regions where the crust is thick and basins are low regions where the crust is thinner).
+
+## Buoyancy and Topography: Isostasy
+
+If the crustal thickness or density varies, then we should be able to see this through an "isostatic" equilibrium between density and topography.
+
+$$
+\int_0^{d_c} \rho(z) dz = \textrm{constant}
+$$
+
+(where $d_c$ is called the _compensation depth_)
+
+<center>
+![](images/Isostasy2.png){style="height:200px; "}
+<small>
+_The Airy model of isostasy relates crustal thickness to topography. Compare continental crust to buoyant icebergs floating high in the water and having a deep, buoyant root._
+</small>
+
+</center>
+
+We usually think about isostasy as the light crust floating on the mantle,
+the same approach works for any density variations near the surface (e.g. thermal anomalies).
+If we integrate every density anomaly in adjacent columns, they balance out
+in the asthenosphere.  **This is the Pratt model of isostasy.**
+
+
+# Break !
+
+# How do we know what is inside a planet ?
+
+![](images/PK/PK4LM_18.jpg){style="height:250px; float:right"}
+
+* Comparing with Earth
+  * Models of formation
+  * Interior layers
+  * Bouyancy
+* Ground-based
+  * Samples brought to surface:
+    * Drilling
+    * Natural processes
+  * Seismology / Imaging
+  * Structural Mapping
+* Remote sensing
+* Experiments to synthesize rocks
+* Modelling
+
+# Scientific Deep Drilling (Continental)
+
+<center>
+![](images/PK/PK4LM_20.jpg){style="height:300px;"}
+
+_Kola Superdeep Borehole – deepest borehole (vertical depth), 12 262m_
+</center>
+
+This major engineering project spanning several decades drilled to a depth of more that 12km into the continental crust. This is just over 0.1% of the radius of the Earth.
+
+Read more on [Wikipedia](https://en.wikipedia.org/wiki/Kola_Superdeep_Borehole).
+
+## Scientific Deep Drilling (Oceanic)
+
+<center>
+![](images/PK/PK4LM_19.jpg){style="height:300px;"}
+
+</center>
+
+Much more significant engineering challenge to drill to significant depth at sea. Not least because the drill is deployed from multiple km above the sea-bed. The crust is thinner, though, and there is now a chance to drill through to the oceanic moho (i.e. reach the mantle).
+
+  - [History of Ocean Drilling](https://www.earthdate.org/episodes/deep-ocean-drilling)
+  - [The IODP project](https://iodp3.org/about/scientific-ocean-drilling-history/)
+  - [Meng Xiang - drilling to the mantle (again)](https://www.nature.com/articles/s41561-025-01675-7)
+
+# Samples carried to Earth’s surface by erupting magmas
+
+<center>
+![](images/PK/PK4LM_22.jpg){style="height:300px;"}
+</center>
+
+Mantle and deep crustal xenoliths transported from depths up to ~250km
+
+## Samples carried to Earth’s surface by erupting magmas
+
+<center>
+![](images/PK/PK4LM_21.jpg){style="height:260px;"}&nbsp;&nbsp;&nbsp;
+![](images/PK/PK4LM_23.jpg){style="height:260px;"}
+</center>
+
+Magma ascending has plucked out material from the sides of the pipe and carried it up to the surface. We have to determine the conditions (and therefore depth) at which rocks came from by looking at the chemistry and mineralogy of the samples, and making some assumptions about the time taken to bring the material to the near-surface.
+
+# Samples carried to Earth’s surface by obduction
+<center>
+![](images/PK/PK4LM_24.jpg){style="height:260px;"}&nbsp;&nbsp;&nbsp;
+![](images/PK/PK4LM_25.png){style="height:260px;"}
+</center>
+
+**Obduction:** (the reverse of subduction)– when material from the downgoing plate is over-thrust onto the over-riding plate. Most common during continental collision / congested subduction.
+
+[Wikipedia article](https://en.wikipedia.org/wiki/Obduction) on obduction.
+
+# Seismology
+
+Study of Earthquakes and also *sound waves (shaking) in the earth caused by earthquakes*
+<center>
+![](images/PK/PK4LM_26.jpg){style="height:300px;"}&nbsp;&nbsp;&nbsp;
+![](images/PK/PK4LM_27.jpg){style="height:260px;"}
+
+</center>
+
+Earthquakes are the release of stored (elastic, gravitational) energy through the sudden and rapid movement of two  adjacent blocks of rock, usually along a fault. Energy radiates away from the hypocentre (earthquakes location) as vibrations called seismic waves.
+
+# Earthquake waves
+
+<center>
+![](images/PK/PK4LM_28.gif){style="height:250px;"}&nbsp;&nbsp;&nbsp;
+![](images/PK/PK4LM_29.gif){style="height:250px;"}
+</center>
+
+**P wave / Primary wave / Pressure wave**
+
+  * Compressional
+  * Can travel through solids, liquids and gasses
+
+**S wave / Secondary wave / Shear wave**
+
+  * Shear displacements
+  * Can travel through solids but not through liquids or gasses
+
+# Earthquakes – Earth’s interior
+
+<center>
+![](images/PK/PK4LM_30.png){style="height:400px; float:right;"} &nbsp;&nbsp;&nbsp;
+</center>
+
+S\-waves do not travel through the liquid outer core – S shadow zone
+
+P\-waves also exhibit a shadow zone – this is due to wave refraction as a result of increasing wave speed with depth
+
+Core structure – wave paths and speeds consistent with an Fe \(iron\) liquid outer core and solid inner core that both contain significant amounts of Ni \(nickel\) and S \(sulfur\)
+
+# Earthquake distribution / depth
+
+<center>
+<video autoplay controls width="75%">
+    <source src="movies/GlobalEQCumulative.m4v"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+
+See how the distribution of Earthquakes is very localised — on Earth they occur mostly at *plate boundaries* (more on this later !) and are quite shallow (in the cool parts of the lithosphere).
+
+In a few places, earthquakes are deeper. These are regions of *subduction* where plates are recycled into the Earth's interior. These are the only cool regions at depth.
+
+
+# Marsquakes – the interior of Mars
+<center>
+![](images/PK/PK4LM_32.gif){style="height:400px;"}&nbsp;&nbsp;&nbsp;
+</center>
+
+Mars is one of the few places beyond Earth where we have been able to use seismological techniques to image the interior. Even so, with just one seismometer and very few ~~earth~~marsquakes, our ability to "image" is quite limited.
+
+## Marsquakes – the interior of Mars
+
+<center>
+![](images/PK/PK4LM_33.png){style="height:250px;"}&nbsp;&nbsp;&nbsp;
+![](images/PK/PK4LM_34.jpg){style="height:250px;"}&nbsp;&nbsp;&nbsp;
+</center>
+
+Data from the InSight lander recorded frequent marsquakes up to magnitude 4 that allowed researchers to probe the martian interior: a thick, fractured crust, mantle structure, with a liquid core that includes a sizeable fraction of light elements.
+
+## Marsquakes – InSight Mission
+<center>
+![](images/PK/PK4LM_35.png){style="height:550px; float:right; padding:50px"}
+</center>
+
+InSight operated from 2018-2022, after which power from the solar panels had dropped to a fraction of the original value, largely due to accumulations of wind-blown dust.
+
+We believe that the mantle is active and overturning (like Earth), but we can't image this because 1) not enough seismometers or marsquakes and 2) Mars does not have plate tectonic activity so the interior is much less variable than Earth's (more later !).
+
+# Moonquakes
+
+<center>
+![](images/PK/PK4LM_38.jpg){style="height:250px;"}&nbsp;&nbsp;&nbsp;
+</center>
+
+
+Apollo missions (1969-1977). **ASLEP** (Apollo Lunar Surface Experiment Package) detected ~12000 seismic events including some meteorite impacts.
+
+Hundreds of deep moonquakes and 28 shallow events. Deep quakes are probably driven by tidal stresses from the Earth that deform the entire moon. Shallow events included quite large (>5.5) moonquakes probably would be characterised as "tectonic" events. Other sources of seismic activity included meteorite impacts and artificial signals from lunar modules [see wikipedia](https://en.wikipedia.org/wiki/Lunar_seismology).
+
+More recent results from the Chandrayaan-3 (Indian) lander and a future Artemis experiment (SUBLIME) would deploy a seismic network of 3 component instruments.
+
+## Moonquakes
+
+<center>
+![](images/PK/PK4LM_37.jpg){style="height:300px;"}&nbsp;&nbsp;&nbsp;
+</center>
+
+Demonstrated the existence of a solid inner-core and sharp core-mantle boundary. Potentially, there is a partially-molten layer at the base of the lunar mantle, though this might also be structure in the outermost part of the core.
+
+The solid core has a radius of about 240 km and there could be a liquid outer core with a thickness of about 90 km. The possible partial melt layer sits above the liquid outer core and has a thickness of about 150 km. The lunar crust is roughly 40km in thickness.
+
+# Venusquakes
+
+<center>
+![](images/VeneraLanderSurface.gif){style="height:300px;"}&nbsp;&nbsp;&nbsp;
+</center>
+
+Groza 2 instrument flew on Venera 13 and Venera 14
+
+  * Microphone + single axis seismometer to measure vertical
+      displacement of surface to micron precision
+  * Spacecraft only survived *a couple of hours* – not much data / nothing of any real use (we'd need months of data)
+
+
+# Break !
+
+# The Earth in Cross Section
+
+<div style="width:40%; float:right">
+![](images/EarthXsection.png)
+</div>
+
+<div style="width:60%">
+
+The circulation currents in the *solid mantle* move at a few cm/yr and plate motions are
+part of the overall circulation. On a global scale, movement is slow and viscous, especially in the deep mantle.
+
+
+Mantle Plumes are also part of the overall circulation but much smaller than the slabs because
+they are cylindrical rather than sheets. Flow in the mantle is broad scale - small structures induce broad flow.
+
+Other solid planets should follow the same basic physical models as the Earth, so it's best to learn how things work on the most-instrumented planet first of all.
+
+
+</div>
+
+# Mantle Convection
+
+Convection in Earth’s interior is (a little bit) like a boiling pot (as we saw in a previous lecture)
+
+<center>
+
+![](images/USGS-ConvectionCartoon.png){fig-align="center" height="300px"} &nbsp;
+![](images/AWatchedPot.png){fig-align="center" height="300px"}
+
+</center>
+
+The hot soup rises to the surface, spreads and begins to cool, and then sinks back to the bottom of the pot where it is reheated and rises again. **Why does hot soup rise and cold soup sink** ?
+
+# General Observations on Convection
+
+:::: {.columns}
+
+::: {.column width="66%"}
+Without being particularly quantitative:
+
+  - Hot liquid is more buoyant than cold material **and it tends to rise**
+  - Cooler liquid is less buoyant and **therefore tends to sink**
+  - This can only happen if the two can **move past each other**
+  - Convection produces a self-stirring
+
+:::
+
+::: {.column width="34%"}
+![](images/AWatchedPot.png){fig-align="right" height="200px"}
+:::
+
+::::
+
+Buoyancy forces are at work and viscous forces counteract these forces once the fluid is moving
+
+$$
+\textrm{buoyancy} \propto g \rho_0 \alpha(1-\Delta T)
+$$
+
+Convection like this will only work when the soup is heated from below or, in the case of the Earth, if it is heated from within by radioactivity. **(Can you see why) ?**
+
+
+## General Observations on Convection
+
+**Definition**:  Convection is the transfer of heat by the self-organised movement of a fluid. Free convection is when the fluid is stirred entirely by rising buoyant material and sinking negatively-buoyant material. (Forced convection is produced when the fluid is stirred mechanically).
+
+<center>
+<video autoplay controls width="33%">
+    <source src="movies/LavaLampNormalSpeed.m4v"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+
+Convection is one of the ways we transfer heat from hot regions deep in the Earth to cooler, shallow regions.
+
+# Heat Transfer
+
+Other ways that heat can be transferred include *radiation*, *advection*, and *conduction*.
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+**Advection** of heat is where some object carries an excess (or defecit of) heat energy from place to place.
+
+**Conduction** is the transfer of heat (or electric current) from one substance to another by direct contact (lattice vibrations / electrons).
+
+**Radiation** is the transfer of heat energy by photons that pass between two materials. It does not require any physical contact or indermediary material (e.g. it is not a problem to transfer heat across a vacuum this way).
+:::
+
+::: {.column width="40%"}
+!["Kmecfiunit, cmglee, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons"](https://upload.wikimedia.org/wikipedia/commons/f/f4/Heat-transmittance-means2.jpg)
+:::
+
+::::
+
+
+# Conduction & Fourier's Law - i
+
+:::: {.columns}
+
+::: {.column width="60%"}
+**Fourier's Law** tells us how much heat, $Q$ is conducted through a sample in a unit time
+
+$$
+  Q=-\frac{k A \Delta T}{L}
+$$
+
+$A$ is the cross sectional area of the sample, $L$ is its length, $k$ is a thermal conductivity “constant” dependent on the nature of the material and often also on the temperature, and $\Delta T$ is the temperature difference across the sample. (Note the minus sign because heat will always flow from a higher temperature to a lower temperature.)
+:::
+
+::: {.column width="40%"}
+![](images/FourierCylinder.png)
+:::
+
+::::
+
+
+## Conduction & Fourier's Law - ii
+
+**Fourier's Law** is explained using a simple thought experiment such as this one but it actually refers to the fact that heat
+flows *down a temperature gradient*.
+
+![](images/HeatFlux.png){height="300px" fig-align="center"}
+
+::::{.columns style='display: flex; align-items: center;'}
+
+
+:::{.column style='width:20%; display: flex; align-items: center;'}
+$$ q = - k \frac{dT}{dx} $$
+:::
+
+:::{.column style='width:80%; display: flex; align-items: center;'}
+$q, (W/m^2)$ is called the heat flux and measures the flow of heat per unit area perpendicular to the temperature gradient
+:::
+
+::::
+
+## Conduction & Fourier's Law - iii
+
+If the heat flux into a region is not balanced by the heat flux out, the region must change temperature. For example, if more heat flow into a region than is flowing out, it will become warmer.
+
+<!-- :::{style="width:80%; text-align: left; margin: 0 auto;"}
+![The heat flow in the diagram is away in both directions from the high temperature to the cooler areas. The loss of heat from this region is balanced by a reduced temperature.
+](images/HeatFlux2.png){height="300px"}
+::: -->
+
+::::{.columns style='display: flex; align-items: center;'}
+
+:::{.column  style='width:35%; display: flex; align-items: center;'}
+*The heat flow in the diagram is away (in both directions) from the high temperature to the cooler areas. The loss of heat from this region is balanced by a reduced temperature.*
+:::
+
+:::{.column width="5%"}
+&nbsp;
+:::
+
+:::{.column width="60%"}
+![](images/HeatFlux2.png){.r-stretch}
+:::
+
+::::
+
+This process reduces the amplitude of temperature variations over time and makes the temperature smoother. **Temperature extremes become smaller, gradients become lower, the heat flux everywhere becomes smaller: the temperature differences *decay* through time.**
+
+## Conduction & Fourier's Law - iv
+
+If a region has a different heat flux in v. out, then there must be a gradient in the heat flux. A change in temperature is driven by gradients in the heat flux like this:
+
+$$
+   \frac{\partial T}{\partial t} =  -\frac{1}{\rho C_p} \frac{\partial q}{\partial x} + H
+$$
+
+$H$ is internal heat generation which is often important in the Earth because of the decay of radioactive isotopes.  Now we substitute for $q$ from Fourier's Law and have this expression:
+
+$$
+   \frac{\partial T}{\partial t} =  \frac{k}{\rho C_p} \frac{\partial^2 T}{\partial x^2} + H
+$$
+
+Fourier was one of the first to solve this mathematically and developed
+his method of summing harmonics (series solutions) as part of this study.
+
+## Newton's Law of Cooling
+
+Another example of "thermal decay" occurs when we have a
+hot body in a cool environment loosing heat through its surface
+according to the Fourier Law.
+
+::::{.columns style='display: flex; align-items: center;'}
+
+:::{.column  style='width:55%;'}
+
+The heat flux is proportional to the difference in temperature between the hot object and the surroundings, so
+
+$$
+  \frac{dT}{dt} \propto T - T_0  \quad \rightarrow \quad T = T_1 e^{-\lambda t}
+$$
+
+This is exactly the same equation for the anomalous temperature as for the quantity
+of a radioactive isotope remaining after a certain time
+and has the same solution with $\lambda$ a constant for a particular experiment.
+:::
+
+:::{.column width="40%"}
+![](images/NewtonsLawOfCooling.png){.r-stretch}
+:::
+
+::::
+
+
+# Thermal Diffusion and Planetary Heat flow
+
+The rate of heat loss is a primary controller of how a planet evolves.
+
+  - The heat loss controls the internal temperature of the planet and
+   its mechanical properties are expected to be dependent on temperature
+
+  - The rate of heat loss from the interior is related to the energy
+    available to supply mechanical work to deform the planet
+
+  - The rate of heat loss governs the amount of time the planet can remain
+    "geologically" active before the interior stops exchanging with the surface / atmosphere.
+
+
+# Surface temperature and Heat loss
+
+The Stefan-Boltzmann law tells us the rate at which a hot object loses heat to its surroundings.
+
+$$
+P = \varepsilon \sigma A \left( T^4_\textrm{hot} - T^4_\textrm{ambient} \right)
+$$
+
+The average surface temperature of the Earth is about 15°C or 288K.
+This implies a loss of heat at a rate of 2 x 10^17^ W globally (to the chill of space)
+We can make some assumptions about the energy content of the Earth to
+see how long this can be sustained.
+
+$$
+  \require{cancel}
+  \require{color}
+  \frac{dE}{dt} = \frac{dE}{dT} { \color{blue} \frac{dT}{dt} } =
+  \varepsilon \sigma A \left( T^4_\textrm{hot} - \bcancel{T^4 _\textrm{ambient}} \right)
+$$
+
+$$
+  \require{cancel}
+  t_\textrm{cooling} =
+      \frac{\rho C_p V_\oplus}{\varepsilon \sigma A_\oplus}
+      \int^{T_\mathrm{final}}_{T_{initial}} \frac{1}{T^4}dT =
+      \frac{\rho C_p R_\oplus}{3 \varepsilon \sigma}
+      \left( \frac{1}{T^3_\mathrm{final}} -
+             \bcancel{\frac{1}{T^3_\mathrm{initial}}}
+      \right)
+$$
+
+[Online Calculator Tool](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/cootime.html#c2) (interactive version)
+
+## Surface temperature and Heat loss (2)
+
+Assuming an initial temperature of 1500K (molten rock observed at the Earth’s surface)
+gives a cooling time of **250,000 years**.
+
+That’s quite young !
+
+What is missing / incorrect in this analysis ?
+
+ - The incoming radiation from the sun (estimated 1.75 x 10^17^ W) implies
+   the Earth’s surface is near equilibrium with the solar radiation
+   and therefore we should not assume cooling to the cold depths of outer space
+   (how long has this near-equilibrium been established ?)
+
+ - The assumption that the Earth’s interior is isothermal
+ - The assumption that heat loss from the interior to the surface is perfectly efficient
+
+This analysis might be quite useful for a molten planet (magma ocean)
+where the heat transport in a vigorously convecting interior is very efficient.
+Once the planet begins to crystallise, conductive cooling through the
+chilled surface layers becomes the rate-controlling process.
+
+# Solution for the uniform conduction of heat out of a sphere
+
+:::: {.columns}
+
+::: {.column width="65%"}
+What is the **equilibrium** heat flow across a thin spherical shell ?
+
+ - Heat flux in balances heat flux out
+ - Account for heat generation within the shell
+
+$$ Q_r = 4\pi r^2 \cdot q_r(r) $$
+
+$$ Q_{r+\delta r} = 4\pi (r+\delta_r)^2 \cdot q_r(r+\delta_r) $$
+
+:::
+
+::: {.column width="30%"}
+![](images/AnnulusSphere_dR.png){fig-align="right"}
+:::
+
+::::
+
+The steady solution has this form
+
+$$
+  T = -\frac{\rho H}{6 k} r^2 + \frac{C_1}{r} + C_2
+$$
+
+Which is only interesting if there is internal heating ($H$)
+and otherwise implies constant temperature / no additional heat at depth.
+Steady-state, of course, tells us nothing about the age of the Earth.
+$C_1$ has to be zero, for the solution to be meaningful at $r=0$.
+
+# Transient solution for a sphere cooling from a uniform T
+
+The transient (i.e. interesting) equivalent to this problem is qualitatively
+different from the steady one. There are now variations with time and these
+trade-off with variations in the radial direction.
+
+
+Fourier’s approach was to find solutions in the form of a series of terms,
+each of which individually satisfies the equations, but none of which, in isolation,
+looks much like the actual solution.
+
+The equation we want to solve looks like this:
+
+$$
+  \frac{\partial T}{\partial t} = \frac{1}{r^2} \frac{\partial}{\partial r}
+                                  \left( \frac{1}{r^2}\frac{\partial T}{\partial r}\right)
+$$
+
+It says that the temperature changes due to radial temperature gradients and,
+equally, that radial temperature gradients are established by the changes in temperature.
+
+**NOTE:** I have left out the material “constants” like thermal conductivity, radius of the sphere, density which means I am assuming these are all 1 (and constant)
+
+## Transient solution for a sphere cooling from a uniform T (2)
+
+$$
+  \frac{\partial T}{\partial t} = \frac{1}{r^2} \frac{\partial}{\partial r}
+                                  \left( \frac{1}{r^2}\frac{\partial T}{\partial r}\right)
+$$
+
+We can look for solutions that take the form ...
+
+$$
+  T(r,t) = \frac{2}{r} \sum_{n=1}^{\infty}
+                          \exp\left( n^2\pi^2 t \right) \sin(n\pi r) \cdot
+                        \int_0^1 {\color{red}{f_T(r^*)}} \cdot r^* \sin(n\pi r^*) dr^*
+$$
+
+The term in red is the initial temperature distribution.
+If we assume that this is uniform everywhere, then this is simplified
+to the point where we can easily evaluate the solution:
+
+$$
+  T(r,t) = \frac{2}{r} \sum_{n=1}^{\infty}
+                          \exp\left( n^2\pi^2 t \right) \sin(n\pi r) \cdot
+                        \left( \frac{\sin(n\pi) - n \pi \cos(n\pi)}{n^2 \pi^2}  \right)
+$$
+
+
+## Transient solution for a sphere cooling from a uniform T
+
+$$
+  T(r,t) = \frac{2}{r} \sum_{n=1}^{\infty}
+                          \exp\left( n^2\pi^2 t \right) \sin(n\pi r) \cdot
+                        \left( \frac{\sin(n\pi) - n \pi \cos(n\pi)}{n^2 \pi^2}  \right)
+$$
+
+
+<center>
+![](images/CoolingSphere_EvolutionAndCentralT.png){width="90%" }
+</center>
+
+## Transient solution for a sphere cooling from a uniform T
+
+$$
+  T(r,t) = \frac{2}{r} \sum_{n=1}^{\infty}
+                          \exp\left( n^2\pi^2 t \right) \sin(n\pi r) \cdot
+                        \left( \frac{\sin(n\pi) - n \pi \cos(n\pi)}{n^2 \pi^2}  \right)
+$$
+
+The temperature gradient at the surface is found by differentiating this
+expression w.r.t. $r$ and evaluating at $r=1$
+
+$$
+  \frac{\partial T}{\partial r}(1,t) = -\sum_{n=1}^{\infty}
+                        \frac{2 e^{-n^2\pi^2 t}
+                             \left( n\pi \cos(n\pi) -\sin(n\pi) \right)^2}{n^2 \pi^2}
+$$
+
+The surface heat flux is then given by
+
+$$
+  q_0 = -k\frac{\partial T}{\partial r}(1,t)
+$$
+
+
+## Transient solution for a sphere cooling from a uniform T
+
+$$
+  \frac{\partial T}{\partial r}(1,t) = -\sum_{n=1}^{\infty}
+                        \frac{2 e^{-n^2\pi^2 t}
+                             \left( n\pi \cos(n\pi) -\sin(n\pi) \right)^2}{n^2 \pi^2}
+$$
+
+<center>
+![](images/CoolingSphere_AgeCalculation.png){width="50%" }
+</center>
+
+This is, essentially, the simplest version of estimate by Lord Kelvin for the age of the Earth
+based on a uniform internal temperature. Nobody really liked his conclusion – it was too old to satisfy the biblical literalists, and too young to satisfy their opponents: the evolutionist / biologists and the geologists.
+
+
+## Transient solution for a sphere cooling from a uniform T
+
+$$
+  \frac{\partial T}{\partial r}(1,t) = -\sum_{n=1}^{\infty}
+                        \frac{2 e^{-n^2\pi^2 t}
+                             \left( n\pi \cos(n\pi) -\sin(n\pi) \right)^2}{n^2 \pi^2}
+$$
+
+<center>
+![](images/CoolingSphere_AgeCalculation.png){width="50%" }
+</center>
+
+**Analogy:** In any good murder-mystery, when somebody finds a body, the 'time of death' is estimated by measuring the body temperature. We know the initial temperature, so the cooling calculation is the same as this one.
+
+
+## Transient solution for a sphere cooling from a uniform T (details)
+
+$$
+  T(r,t) = \frac{2}{r} \sum_{n=1}^{\infty}
+                          \exp\left( n^2\pi^2 t \right) \sin(n\pi r) \cdot
+                        \left( \frac{\sin(n\pi) - n \pi \cos(n\pi)}{n^2 \pi^2}  \right)
+$$
+
+Ignoring how we come by this (complicated-looking) solution for the time being,
+what do these terms actually look like ?
+
+![](images/CoolingSphere_Harmonics.png){height="300px" fig-align="center"}
+
+A fundamental objection to Fourier's original approach to solving equations by
+series solution is that the harmonics can violate the boundary conditions and other
+physical constraints.
+
+## Transient solution for a sphere cooling from a uniform T (details)
+
+$$
+  T(r,t) = \frac{2}{r} \sum_{n=1}^{\infty}
+                          \exp\left( n^2\pi^2 t \right) \sin(n\pi r) \cdot
+                        \left( \frac{\sin(n\pi) - n \pi \cos(n\pi)}{n^2 \pi^2}  \right)
+$$
+
+How do the harmonics look when added together to give an approximation to the
+solution ?
+
+![](images/CoolingSphere_Summation.png){height="300px" fig-align="center"}
+
+The solution *does* satisfy the boundary conditions and the
+physical constraints. **Note** that the smaller time solution has
+much sharper gradients and many more terms are required to accurately
+approximate the solution.
+
+# The cooling of a semi-infinite domain
+
+::::{.columns}
+
+:::{.column style='width:40%;'}
+
+$$
+\newcommand{\erfc}{\mathop{\rm erfc}\nolimits}
+T = \erfc\left(\frac{z}{2\sqrt{t}}\right)
+$$
+
+This is a very different solution strategy to the cooling sphere
+(and yet they should, in a mathematical sense,
+approach each other as the radius becomes large).
+
+The solution looks **very similar** in character: a cooling
+front which propagates in from the surface.
+The curves are self-similar, they just differ by a scaling factor.
+:::
+
+:::{.column style='width:60%;'}
+<center>
+![](images/CoolingHalfSpace_EvolutionT.png){width="100%" }
+</center>
+:::
+
+::::
+
+## The cooling of a semi-infinite domain
+
+::::{.columns}
+
+:::{.column style='width:75%;'}
+
+This is a problem not unlike the cooling sphere,
+but with no inherent length scale that comes from the boundary
+conditions. The equations are similar but we are working
+in a Cartesian geometry (and also ignoring all the constants !)
+
+$$
+  \frac{\partial T}{\partial t} = \frac{\partial^2 T}{\partial z^2}
+$$
+
+This equation simplifies to an ODE if we make the following substitution,
+
+$$
+  T^* = 1-T; \quad \eta = \frac{z}{2\sqrt{t}} \quad \rightarrow
+      -\eta\frac{d T^*}{d \eta} = \frac{1}{2}\frac{d^2 T^*}{d \eta^2}
+$$
+
+Which has the following solution
+
+$$
+\newcommand{\erf}{\mathop{\rm erf}\nolimits}
+\newcommand{\erfc}{\mathop{\rm erfc}\nolimits}
+  T^* = 1-\frac{2}{\sqrt{\pi}} \int_0^\eta e^{-\xi^2} d\xi
+      = 1 - \erf(\eta)
+      = \erfc\left(\frac{z}{2\sqrt{t}}\right)
+$$
+:::
+
+:::{.column style='width:25%;'}
+<center>
+![](images/CoolingHalfSpace_T.png){width="60%" }
+</center>
+:::
+
+::::
+
+# Heat flow in convecting systems
+
+<center>
+![](images/USGS-ConvectionCartoon.png){fig-align="center" height="300px"} &nbsp;
+![](images/AWatchedPot.png){fig-align="center" height="300px"}
+</center>
+
+In rigid bodies, we have diffusion and heat production to worry about, but in fluids, heat can be carried from place to place by advection.
+
+ - On geological timescales, all planets behave like viscous fluids.
+
+ - How does the heat flow change when convection plays a role in heat transfer ?
+
+ - Can we quantify the relationship between internal heat and the geotherm as we can in rigid bodies&nbsp;?
+
+# Quantitative lava lamp model
+
+<center>
+<video autoplay controls width="33%">
+    <source src="movies/LavaLampNormalSpeed.m4v"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+</center>
+
+The heat flow in a system that is convecting is always larger than the heat flow would be if the fluid were not moving (all other things being equal). The heat flow is larger by a ratio that is called *the Nusselt number* or $\textrm{Nu}$ and
+
+$$
+  \textrm{Nu} \propto \textrm{Ra}^{1/3}
+$$
+
+Where, $\textrm{Ra}$, is the *Rayleigh number*
+
+$$
+  \textrm{Ra} = \frac{g \rho_0 \alpha \Delta T}{\eta \kappa}
+$$
+
+What is the Rayleigh number / where does it come from  ?
+
+
+##  Navier-Stokes Equation / Convection
+
+**Rayleigh number** - measures the intensity of the buoyancy forces and their ability to counter the effects
+of thermal diffusion and viscosity in damping motion driven by buoyancy
+
+$$
+\mathrm{Ra} = \frac{g \rho \alpha \Delta T d^3}{\eta \kappa}
+$$
+
+**Prandtl number** - measures the relative importance of stress diffusion and thermal diffusion and is purely a
+material property (no reference to the geometry, length- or time-scales).
+
+$$
+\mathrm{Pr} = \frac{\eta}{\rho \kappa} = \frac{\nu}{\kappa}
+$$
+
+**Reynolds number** - measures the relative importance of inertial to viscous forces. The Reynolds number is commonly
+used in fluid dynamics where it is an indicator of the transition from steady flow, unsteady laminar flow, through to
+turbulent flow.
+
+$$
+\mathrm{Re}=\frac{\rho V_0 d}{\eta} = \frac{V_0 d}{\nu}
+$$
+
+The Reynolds number does not contain any reference to the thermal state but this means that there is no natural length/time scaling and so the definition can be subjective.
+
+## Navier-Stokes Equation / Convection
+
+The (in)famous equation of fluid dynamics is the Navier-Stokes equation:
+
+
+$$
+\rho \left( \frac{\partial \mathbf{v}}{\partial t}
+                           + (\mathbf{v} \cdot \nabla) \mathbf{v} \right) =
+                           \eta \nabla^2 \mathbf{v} - \nabla p
+                           - g \rho_0 \alpha \left( T - T_0 \right)  {\mathbf{z}}
+$$
+
+$$
+\left( \frac{\partial T}{\partial t} + \mathbf{v} \cdot \nabla T \right)=
+                        \kappa \nabla^2 T + \frac{H}{C_p}
+$$
+
+We combine Navier-Stokes equation driven by thermal buoyancy, and the expression for
+the time-evolution of the temperature field. The two equations are coupled through $T$.
+The various physical properties and their units are listed below.
+
+$$
+\begin{array} {l|l|l}
+  \hline \textrm{Viscosity}           & \eta             & Pa \cdot s \\
+  \hline \textrm{Temperature scale}   & \Delta T = T-T_0 & K \\
+  \hline \textrm{Lengths}             & x                & m \\
+  \hline \textrm{Thermal expansivity} & \alpha           & K^{-1} \\
+  \hline \textrm{Gravity}             & g                & m.s^{-2} \\
+  \hline \textrm{Density}             & \rho             & kg.m^{-3} \\
+  \hline \textrm{Thermal diffusivity} & \kappa           & m^2.s^{-1} \\
+  \hline
+\end{array}
+$$
+
+## Navier-Stokes Equation / Convection
+
+We can't hope to solve the Navier-Stokes equation, except in a few, trivial cases, but we can do something else. We do a form of dimensional analysis to write every symbol side-by-side with its basic units.
+
+$$
+\frac{\rho_0 \kappa}{d^2} \frac{D}{Dt'} \left( \frac{\kappa}{d} \mathbf{v}' \right) =
+                \frac{\eta}{d^2} \acute{\nabla}^2 \left( \frac{\kappa}{d} \mathbf{v}' \right)
+                - \frac{\eta \kappa}{d^3}  \acute{\nabla} p' + g \rho_0 \alpha \Delta T T' {\mathbf{z}}
+$$
+
+The equation then looks like this:
+
+$$
+\begin{aligned}
+    \frac{\rho \kappa}{\eta} \frac{D\mathbf{v}'}{Dt'}  & =
+                     \acute{\nabla}^2  \mathbf{v}'  -  \acute{\nabla} p' +
+                     \frac{g \rho_0 \alpha \Delta T d^3}{\kappa \eta} T' {\mathbf{z}} \nonumber \\
+           & \textrm{or} \\
+    {\color{DarkRed}\frac{1}{{\rm Pr}}} \frac{D\mathbf{v}'}{Dt'} & =
+    \acute{\nabla}^2  \mathbf{v}'  -
+    \acute{\nabla} p' + {\color{DarkRed} {\rm Ra}} T' {\mathbf{z}}
+\end{aligned}
+$$
+
+The new parameters in the equation are dimensionless ratios, and show how to expand the equation back to its original form.
+
+
+
+##  Navier-Stokes Equation / Convection
+
+Questions
+
+  - What is the Prandtl number for (1) Water, (2) A planet ?
+  - What is the Reynolds number for plate-tectonic motions ?
+  - Estimate the Rayleigh number for the Earth.
+
+Discussion points:
+
+  - If the Prandtl number is very large, how long does it take for the Navier-Stokes equation
+    to adjust to changes in buoyancy forces or boundary conditions ?
+
+  - What is the Reynolds number for mantle flow / plate tectonics ?
+    How about for flow in the Earth's outer core ?
+
+  - A similar scaling question: what (roughly) is the kinetic energy of the Pacific plate ?
+
+
+# Thermal Convection
+
+In very-viscous convection, only the Rayleigh number plays a role
+($\mathrm{Re}\rightarrow 0$ and $\mathrm{Pr} \rightarrow \infty$)
+
+![](images/AdvectionVDiffusion.png){style="height:500px; float:right"}
+
+The structure of the flow and the pattern of the temperature field is predictable once we know the Rayleigh number but it is helpful first to develop some feeling for the patterns by seeing them.
+
+</br>
+
+*Blue  is cool, red is warm. The bottom of the box is kept hot, the top cold and the difference in temperature is $\Delta T$, the depth of the box is $d$ and so on. These numbers are set up so that the Rayleigh number is the required value. In a lab experiment, the simplest parameter to change is $\Delta T$ assuming that the material has a constant viscosity with $T$ and does not freeze, melt, burn or boil.*
+
+
+## Thermal Convection
+
+<center>
+
+Rayleigh number: $Ra=10,000$
+
+<video autoplay controls loop height="500">
+    <source src="movies/Ra1e4.m4v"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+
+
+## Thermal Convection
+
+<center>
+
+Rayleigh number: $Ra=100,000$
+
+<video autoplay controls loop height="500">
+    <source src="movies/Ra1e5.m4v"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+
+
+## Thermal Convection
+
+<center>
+
+Rayleigh number: $Ra=1,000,000$
+
+<video autoplay controls loop height="500">
+    <source src="movies/Ra1e6.m4v"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+
+
+## Thermal Convection
+
+<center>
+
+Rayleigh number: $Ra=10,000,000$
+
+<video autoplay controls loop height="500">
+    <source src="movies/Ra1e7.mp4"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+</center>
+
+
+# Thermal Convection in a wide box
+
+<center>
+
+Rayleigh number: $Ra=1,000,000$
+
+<video autoplay controls loop height="250">
+    <source src="movies/Ra1e6-4x1.m4v"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+</center>
+
+The pattern is not changed much when we make the box a little wider
+
+
+# Thermal Convection in Curved Boxes
+
+Rayleigh number: $Ra=1,000,000$
+
+<center>
+
+<video autoplay controls width="33%">
+    <source src="movies/Annulus1e6_large_core.m4v"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+<video autoplay controls width="33%">
+    <source src="movies/Annulus1e6_normal_core.m4v"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+<video autoplay controls width="33%">
+    <source src="movies/Annulus1e6_tiny_core.m4v"
+            type="video/mp4">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+</center>
+
+Nor does it make a qualitative difference if we account for the Earth's curvature
+
+
+## Flat Earth, Round Earth, 3D
+
+<center>
+
+![](images/FlowInSphericalShell.png){style="height:500px;"}
+
+</center>
+
+In the sphere, the patterns are harder to see by eye, but it turns out that we can draw general conclusions from the 2D cases and they still hold in 3D.
+
+
+# Understanding Thermal Convection
+
+<center>
+
+![](images/blt.png){style="height:300px;"}
+
+</center>
+
+A relatively simple pattern emerges from the competition between advection of heat by fluid flow and diffusion:
+
+  - Convection cells that become independent
+  - Boundary layers where horizontal advection balances vertical diffusion
+  - Rotation in the middle of the box without much deformation
+
+
+## Understanding Thermal Convection
+
+<center>
+
+![](images/blt.png){style="height:200px;"}
+
+</center>
+
+Convection length and timescales are determined by the Rayleigh number.
+
+  - High $\mathrm{Ra}$ narrower boundary layers, higher temperature gradients
+  - High $\mathrm{Ra}$ more likely to be time-dependent, unsteady
+  - Low $\mathrm{Ra}$, convection suddenly shuts off
+
+
+We will see this picture again when we consider the patterns of heat flow in the Earth's ocean floor.
+
+## Average temperature
+
+<center>
+
+![](images/ConvectionTgrads.png){style="height:450px;"}
+![](images/NuExperiment.png){style="height:450px;"}
+
+</center>
+
+The temperature (velocity, stress etc) profiles vary systematically with $\mathrm{Ra}$.
+
+
+# Critical Rayleigh number
+
+It can be a little difficult to see from a small set of movies, but if we reduce the Rayleigh number enough, conduction completely wins over advection and no motion takes place at all.
+
+![](images/crit_ra.png){style="height:400px;float:right;"}
+
+This can be approached theoretically, and we find that there is a critical value of the Rayleigh number and a critical wavelength where this transition occurs.
+
+$$\mathrm{Ra}_c = \frac{27}{4} \pi^4 = 657.51 $$
+
+and
+
+$$ k = \frac{\pi}{\sqrt{2}} = 2.22 $$
+
+If $\mathrm{Ra} \gg \mathrm{Ra}_c$ then convective motion is inevitable
+
+# Discussion: Ra for the Earth's Mantle
+
+Calculate the Rayleigh number for the Earth's mantle.
+
+$$\mathrm{Ra}_{\textrm{Earth}} = ?$$
+
+
+Use the following values:
+
+  - Gravity, $g \approx 10 \mathrm{m/s}^2$ through the mantle
+  - Density, $\rho_0 \approx 3000 \mathrm{kg/m}^3$
+  - Thermal Expansivity, $\alpha \approx 10^{-5} \mathrm{K}^{-1}$
+  - Temperature drop, $\Delta T \approx 2000 \mathrm{K}$
+  - Thickness of the mantle, $d \approx 3000 \mathrm{km}$
+  - Thermal diffusivity, $\kappa \approx 10^{-7} \mathrm{m}^2 / \mathrm{s}$
+  - Viscosity, $\eta \approx 10^{22} \mathrm{Pa.s}$
+
+<hr>
+
+ - **Is it above the critical value ?**
+ - **What does that tell us ?**
+ - **How about Mars ?**
+
+
+# Convection: Summary
+
+Convection is a heat engine (i.e. it converts heat energy into mechanical work)
+
+Convection is a balance between heat transported by fluid motion and diffusion.
+The fluid self-organises to create large scale patterns *“out of nowhere”*
+
+In tanks of viscous fluids like syrup or honey, convection depends on just the one free parameter which is a combination of fluid properties, geometry and boundary conditions — this is called the Rayleigh number (Ra).
+
+If we know Ra, we can predict the heat flow and typical velocity of the system
+
+If Ra is below a critical value, convection dies away but if it is more than (about) ten times this value then convection cannot be suppressed. The Earth’s mantle is very much super-critical and so it must be convecting.
+
+None of these simple models actually produce plate tectonics but they do still tell us about the heat flow in the Earth.
+
+
+<center>
+
+# End
+
+
+
+# Remote Sensing
+
+Altimeters
+
+Magnetometers
+
+Gravity
+
+Spectrometers \(Wk 2\)
+
+Cameras
+
+Geodesy
+
+Radar
+
+
+## "Imaging" the depths
+
+Quantitative information we can obtain about planetary interiors from remote sensing (at the surface or from orbit).
+
+Which remote observations tell us what information ?
+
+  - **Gravity measurements**: density distribution
+  - **Surface topography**: surface stress field
+  - **Surface heat flow**: near surface temperature gradients
+  - **Seismology**: elastic wave speed distribution
+  - **Morphology**: deformation styles / relative ages
+  - **E/M**: conductivity / magnetic susceptibility
+
+None of these tells us directly about the forces and the dynamincs of the deep flow at depth. This is another question we have to ponder.
+
+![](images/PK/PK4LM_40.png)
+
+Mars Reconnaissance Orbiter\. NASA\.
+
+# Mars topography from MOLA altimeter on MGS
+
+![](images/PK/PK4LM_41.jpg)
+
+Mars Orbiter Laser Altimeter on the Mars Global Surveyor
+
+# Earth’s magnetic field
+
+_Liquid iron \(\+ nickel\)_
+
+_outer core_
+
+![](images/PK/PK4LM_42.png)
+
+![](images/PK/PK4LM_43.jpg)
+
+Solid iron\(\+ nickel\) inner core
+
+<span style="color:#006aab">Reverse magnetic polarity</span>
+
+# Earth’s magnetic field may switch directions
+
+![](images/PK/PK4LM_44.png)
+
+The polarity of Earth’s magnetic field shifts every 0\.5 \- 1\.0 Myr
+
+Magnetized minerals in rocks show the direction to Earth’s magnetic poles & provide a means of determining the latitude at which a rock cooled
+
+Rocks formed over time record either ‘normal’ magnetic orientation \(like today\) or ‘reversed’\.
+
+This is a global phenomenon\, & can be used to correlate rocks of the same age\.
+
+<span style="color:#ff0000">Normal magnetic polarity</span>
+
+![](images/PK/PK4LM_45.png)
+
+# Why does Earth’s magnetic field switch?
+
+_We’re not sure_
+
+Perhaps core is simultaneously melting & freezing due to circulation of heat in the overlying rocky mantle
+
+Perhaps tectonic plates descend to the core \(or just above\) & modify the flow of iron
+
+_What will happen when it switches?_
+
+Gradual reversal
+
+Interference with telecom
+
+Interference with magnetic based systems \(e\.g\. navigation\)
+
+![](images/PK/PK4LM_46.png)
+
+Courtesy A\. Roberts
+
+# Magnetic Field - Mars
+
+![](images/PK/PK4LM_47.jpg)
+
+![](images/PK/PK4LM_48.png)
+
+Had a magnetic field until 3\.8 Ga
+
+Now thermal remnant magnetism detected in crust
+
+::: {.notes}
+
+Mars had a strong magnetic field early on
+Persisted until 3.8 billion years ago
+Crustal magnetism is thermal remanent magnetism preserved in the rocks as they cool through the Curie temperature in the presence of the ambient magnetic field
+
+:::
+
+# Magnetic fields of the Moon and Mercury
+
+![](images/PK/PK4LM_49.png)
+
+![](images/PK/PK4LM_50.jpg)
+
+Moon:
+
+No current dynamo
+
+Thermal remnant magnetism detected in crust
+
+Mercury:
+
+Global magnetic field can only be explained by dynamo
+
+# Gravity - Earth
+
+GRACE and GRACE\-FO
+
+![](images/PK/PK4LM_52.gif)
+
+![](images/PK/PK4LM_53.png)
+
+Credit: Rebecca McGirr
+
+# Gravity - Moon
+
+![](images/PK/PK4LM_54.png)
+
+![](images/PK/PK4LM_55.jpg)
+
+![](images/PK/PK4LM_56.jpg)
+
+Davies \(2013\, JGR\)
+
+<span style="color:#0070c0">Accreted body</span>
+
+small\, typically not spherical
+
+asteroids
+
+<span style="color:#0070c0">Melted body</span>
+
+larger\, typically spherical
+
+planets\, dwarf planets & moons
+
+![](images/PK/PK4LM_57.png)
+
+![](images/PK/PK4LM_58.png)
+
+![](images/PK/PK4LM_59.jpg)
+
+![](images/PK/PK4LM_60.gif)
+
+Vesta\,
+
+mean diameter ~525km
+
+Differentiated
+
+Ryugu\,
+
+mean diameter ~1km
+
+Not differentiated
+
+::: {.notes}
+
+Not all meteorites metallic – if a differentiated body than the crust may not have metal
+Metallic test (magnet) will get most, but not all meteorites
+
+Very helpful to look at fusion crust
+
+Some do have holes (caveats!)
+
+
+
+:::
+
+<span style="color:#0070c0">Recap</span>
+
+<span style="color:#0070c0">Meteorite</span>
+
+<span style="color:#0070c0">Classification</span>
+
+<span style="color:#0070c0">\(Olivier\)</span>
+
+![](images/PK/PK4LM_61.png)
+
+![](images/PK/PK4LM_62.jpg)
+
+![](images/PK/PK4LM_63.png)
+
+![](images/PK/PK4LM_64.png)
+
+![](images/PK/PK4LM_65.png)
+
+![](images/PK/PK4LM_66.png)
+
+# Differentiation
+
+![](images/PK/PK4LM_67.png)
+
+![](images/PK/PK4LM_68.png)
+
+![](images/PK/PK4LM_69.jpg)
+
+![](images/PK/PK4LM_70.png)
+
+![](images/PK/PK4LM_71.jpg)
+
+![](images/PK/PK4LM_72.jpg)
+
+_\(Mantle\) _  _Basaltic_  _ _  _crust_
+
+O’Neil & Palme\, 1998
+
+<span style="color:#0070c0">Heating of small planetary bodies \(<1000 km\)</span>
+
+![](images/PK/PK4LM_73.jpg)
+
+Dominant heat sources are accretion & 26Al decay
+
+Tidal heating if near a large body \(e\.g\.\, Io a moon of Jupiter\)
+
+Heat may melt silicates & ices early in solar system
+
+Higher temperatures closer to Sun & at earlier accretion times
+
+\(After Grimm and McSween\, 1993\)
+
+::: {.notes}
+
+When bodies heated a number of things can happen
+Depends on size of body and distance from sun
+
+:::
+
+<span style="color:#0070c0">Heat sources for planetary bodies \(>~300km\)</span>
+
+![](images/PK/PK4LM_74.png)
+
+::: {.notes}
+
+More complicated for larger planetary bodies
+
+Don’t need to remember equations – just need to know that accretion results in heating
+
+:::
+
+# Surface Heat Flow
+
+The planets with the highest heat flows have the most active surfaces
+
+::: {.notes}
+
+Lithosphere – solid brittle part
+
+Earth with high surface heat flow + thin lithosphere = active surface = plate tectonics
+
+Mantle convection results in plate movements
+
+:::
+
+# Transport of heat
+
+![](images/PK/PK4LM_75.jpg)
+
+::: {.notes}
+
+Why do we use granite benchtops?
+
+:::
+
+# Heat transport & mantle dynamics
+
+__M__  __e__  __c__  __h__  __a__  __nis__  __m__  __s__  __ __  __f__  __or__  __ __  __t__  __r__  __a__  __nspo__  __r__  __ting h__  __e__  __a__  __t __  __w__  __ithin the__  __ __  __lithosph__  __e__  __r__  __e__
+
+<span style="color:#0070c0">Lithosphere conduction</span>
+
+Moon\, Mercury
+
+Mars
+
+<span style="color:#0070c0">Volcanism</span>
+
+<span style="color:#0070c0">Convection &</span>
+
+<span style="color:#0070c0">radiation</span>
+
+<span style="color:#0070c0">Plate recycling</span>
+
+<span style="color:#0070c0">\(convection\)</span>
+
+From Melosh\, 2011
+
+::: {.notes}
+
+Explain how ternary diagrams work
+
+:::
+
+# Magma Oceans – early in a body’s history
+
+On some bodies\, all \(or some\) of the outer part of the planet may have been melted  __early in its history__
+
+This model
+
+links basalt & anorthosite on the Moon:
+
+Basalt ‘sinks’ & anorthosite ‘floats’
+
+Allows substantial differentiation to occur in the magmas – required to form lunar KREEP \(Potassium\, Rare Earth Elements & Phosphorus rich magmas\)
+
+Unmelted part might be either never melted or crystal ‘cumulates’
+
+![](images/PK/PK4LM_76.png)
+
+::: {.notes}
+
+Moon very active in early history, less active later
+
+Surface of planet was entirely melted – magma ocean
+
+Plagioclase floated and collected on far side of ocean
+
+KREEP – K, REE, P rich magmas explained by this model
+
+:::
+
+![](images/PK/PK4LM_77.jpg)
+
+<span style="color:#0070c0">Formation of a magma ocean</span>
+
+McSween et al\. \(2019\)
+
+::: {.notes}
+
+See textbook chapter
+
+:::
+
+# Where do the inner planets & Moon fit inprimary, secondary & tertiary crusts?
+
+![](images/PK/PK4LM_78.png)
+
+Beatty et al\. 1999
+
+::: {.notes}
+
+Different kind of crusts on planetary bodies (both in our solar system and exoplanets)
+
+Bigger bodies with more heat can form secondary crusts
+
+Earth is only known body with tertiary crust
+
+
+
+:::
+
+# Primary, secondary & tertiary crusts
+
+![](images/PK/PK4LM_79.png)
+
+Beatty et al\. 1999
+
+::: {.notes}
+
+Different kind of crusts on planetary bodies (both in our solar system and exoplanets)
+
+Bigger bodies with more heat can form secondary crusts
+
+Earth is only known body with tertiary crust
+
+
+
+:::
+
+<span style="color:#0070c0">Linking magmatism to the nature of the lithosphere</span>
+
+![](images/PK/PK4LM_80.jpg)
+
+Stern et al\. \(2018\) Geosci Frontiers
+
+::: {.notes}
+
+Bob Stern did his postdoc at RSES
+
+:::
+
+# Introduction to Plate Tectonics
+
+
+
+      * The rigid  _lithosphere_   __floats__  on hotter & weaker mantle:
+        * the asthenosphere that behaves like a v\. v\. viscous \(‘thick’\)  __fluid__
+
+
+![](images/PK/PK4LM_81.jpg)
+
+Earth – tectonic plates move
+
+Plate movements vary within a plate & between plates
+
+Move at similar rates to fingernail or hair growth
+
+Plate motion is driven by rel\. density changes \(thermal & mineral\)
+
+![](images/PK/PK4LM_82.png)
+
+Geodesy – crust motion in real time
+
+![](images/PK/PK4LM_83.png)
+
+__Global Positioning System \(GPS\)__    __satellites__
+
+Network of  __GPS receivers__
+
+![](images/PK/PK4LM_84.jpg)
+
+![](images/PK/PK4LM_85.jpg)
+
+[http://oceanlink\.info/SOLE/tectonics/WCDA\.html](http://oceanlink.info/SOLE/tectonics/WCDA.html); http://gns\.cri\.nz/
+
+Divergent
+
+\(constructive\)
+
+Convergent
+
+\(destructive\)
+
+_denser_
+
+Transform
+
+\(conservative\)
+
+Tectonic processes
+
+![](images/PK/PK4LM_86.png)
+
+
+
+* Rocks bend or break
+* These processes occur due to movements in the lithosphere and/or asthenosphere
+  * As a planet convects
+  * As material in a planet changes in density
+  * As material readjusts due to stresses
+Divergent margins
+
+![](images/PK/PK4LM_87.png)
+
+Plates move apart \(rift\)
+
+Most are at mid\-ocean ridges \(MOR\)
+
+Some are at continental rifts
+
+New igneous rocks form when magma rises
+
+volcanoes at surface
+
+intrusive rocks at depth
+
+![](images/PK/PK4LM_88.jpg)
+
+Rift eruption
+
+Basalt \- dark fine\-grained lava
+
+Magnetic field recorded in magmas from divergent margins
+
+Alternating magnetic stripes
+
+![](images/PK/PK4LM_89.jpg)
+
+![](images/PK/PK4LM_90.png)
+
+![](images/PK/PK4LM_91.png)
+
+![](images/PK/PK4LM_92.png)
+
+![](images/PK/PK4LM_93.png)
+
+![](images/PK/PK4LM_94.png)
+
+![](images/PK/PK4LM_95.png)
+
+![](images/PK/PK4LM_96.png)
+
+![](images/PK/PK4LM_97.png)
+
+![](images/PK/PK4LM_98.png)
+
+![](images/PK/PK4LM_99.png)
+
+![](images/PK/PK4LM_100.png)
+
+![](images/PK/PK4LM_101.png)
+
+![](images/PK/PK4LM_102.png)
+
+![](images/PK/PK4LM_103.png)
+
+![](images/PK/PK4LM_104.png)
+
+![](images/PK/PK4LM_105.png)
+
+![](images/PK/PK4LM_106.png)
+
+Reverse polarity
+
+Reverse polarity
+
+Reverse polarity
+
+Reverse polarity
+
+Reverse polarity
+
+When geophysicists also had observations of sea floor spreading
+
+it was more widely accepted
+
+<span style="color:#0070c0">Opening the oceans</span>
+
+![](images/PK/PK4LM_107.jpg)
+
+<span style="color:#232323">A basin forms</span>
+
+<span style="color:#232323">Normal faults</span>
+
+<span style="color:#232323">Sediments fill the basin</span>
+
+<span style="color:#232323">A rift forms in the continent</span>
+
+![](images/PK/PK4LM_108.png)
+
+![](images/PK/PK4LM_109.png)
+
+<span style="color:#232323">Ocean fills in basin</span>
+
+<span style="color:#232323">Sediments & rivers enter the ocean</span>
+
+![](images/PK/PK4LM_110.png)
+
+_Canadian Tuzo Wilson:_
+
+_The Wilson _  _cycle_
+
+_named after him_
+
+<span style="color:#232323">Mid\-ocean ridge \(MOR\)</span>
+
+<span style="color:#0070c0">Transform margins</span>
+
+<span style="color:#000000">Plates slide past one another</span>
+
+<span style="color:#000000">No lithosphere created or destroyed</span>
+
+![](images/PK/PK4LM_111.png)
+
+Transform margins
+
+# San Andrea Fault - California
+
+![](images/PK/PK4LM_112.png)
+
+![](images/PK/PK4LM_113.jpg)
+
+![](images/PK/PK4LM_114.jpg)
+
+# Transform fault separating 2 mid-ocean ridge divergent zones
+
+![](images/PK/PK4LM_115.png)
+
+![](images/PK/PK4LM_116.png)
+
+# Tectonics Features Beyond Earth
+
+![](images/PK/PK4LM_117.jpg)
+
+<span style="color:#0070c0">Tectonic features on Mercury</span>
+
+
+
+* Evidence for faulting
+  * i\.e\. tectonic activity – likely cracking in surface
+  * \(not plate tectonics\)
+
+
+![](images/PK/PK4LM_118.png)
+
+![](images/PK/PK4LM_119.jpg)
+
+::: {.notes}
+
+Faulting mostly due to tidal stresses due to being close to the sun
+Don’t get plate tectonics
+Extensional and compressional faults
+
+:::
+
+![](images/PK/PK4LM_120.jpg)
+
+Tectonic features on Mars
+
+\(McSween et al\. 2019\)
+
+::: {.notes}
+
+Modern tectonics of Mars is mostly compressional faults
+Probably due to cooling
+Most features are probably very old
+
+
+:::
+
+Tectonic features on Mars
+
+![](images/PK/PK4LM_121.jpg)
+
+![](images/PK/PK4LM_122.jpg)
+
+Graben are formed by extensional stresses \(red arrows\) in the crust\. Graben consist of flat\-floored valleys bound by opposite\-facing normal faults\, and are often separated by upland blocks called horsts\.
+
+Mars: Simple graben and horsts in Tantalus Fossae on eastern flank of Alba Mons\. Line of pit craters suggests drainage into subsurface voids\, possibly created by tension cracks \(THEMIS IR daytime mosaic\)\. NASA/JPL\, Arizona State University\.
+
+::: {.notes}
+
+Extensional faults forming horsts and grabens
+Inflation of crust beneath the volcano as magma was injected beneath it, stretched the surface and caused extensional faults
+Canberra region of horsts and grabens – like what we saw at Lake George
+
+:::
+
+<span style="color:#0070c0">Tectonic features on Mars</span>
+
+2\. 	Model of how volcanic loading affects the lithosphere
+
+1\. 	Measurements of topography around Olympus Mons\, Mars
+
+![](images/PK/PK4LM_123.jpg)
+
+![](images/PK/PK4LM_124.jpg)
+
+![](images/PK/PK4LM_125.jpg)
+
+![](images/PK/PK4LM_126.jpg)
+
+3\. 	Parameters can be calculated for the thickness and Young’s modulus of the martian lithosphere
+
+![](images/PK/PK4LM_127.jpg)
+
+![](images/PK/PK4LM_128.jpg)
+
+Taylor et al\. 2020 JVGR
+
+::: {.notes}
+
+Can determine physical properties of crust and mantle from the way the crust responds to loading and unloading through volcanism
+
+:::
+
+Tectonic features on Venus
+
+![](images/PK/PK4LM_129.png)
+
+Hansen & Willis\, 1996\,  _Icarus_ \.
+
+Tectonic features on Venus
+
+![](images/PK/PK4LM_130.png)
+
+Hansen & Willis\, 1996\,  _Icarus_ \.
+
+::: {.notes}
+
+From these images we can determine that the crust is very thin overlying a hot, ductile substrate
+
+:::
+
+![](images/PK/PK4LM_131.jpg)
+
+_Venus_
+
+_Fotla_  _ Corona_
+
+_NASA/JPL/Magellan probe_
+
+::: {.notes}
+
+Faulting associated with volcano
+
+:::
+
+_Domes in cross\-section_
+
+_Venus domes in map view_
+
+_Simple to complex faulting_
+
+![](images/PK/PK4LM_133.png)
+
+<span style="color:#ffffff">V</span>  <span style="color:#ffffff">e</span>  <span style="color:#ffffff">n</span>  <span style="color:#ffffff">u</span>  <span style="color:#ffffff">s</span>  <span style="color:#ffffff">i</span>  <span style="color:#ffffff">an </span>  <span style="color:#ffffff">Co</span>  <span style="color:#ffffff">r</span>  <span style="color:#ffffff">on</span>  <span style="color:#ffffff">ae</span>
+
+![](images/PK/PK4LM_134.gif)
+
+_Campbell et al\.\, J Geol\. _  _Geosci_  _\.\, after _  _Halbouty_  _\, 1967_
+
+GIF from wikipedia
+
+# Relationships between planetary interiors, volcanism & types of crusts
+
+# Mantle convection & density-driven flow
+
+<span style="color:#ff0000">Increased density – lithosphere sinks</span>
+
+# Mantle convection
+
+![](images/PK/PK4LM_135.jpg)
+
+![](images/PK/PK4LM_136.png)
+
+_Ladbury_  _ 1999\, Phys\. Today\._
+
+Surface expression of interior processes
+
+
+
+  * Rising column of lower density mantle at a relatively stationary point
+  * May come from as deep as the core\-mantle boundary
+  * Rising material forms a magma
+
+
+![](images/PK/PK4LM_137.png)
+
+![](images/PK/PK4LM_138.png)
+
+Hamblin & Christiansen \(2000\)
+
+_Mantle Plume or ‘hot spot’_
+
+![](images/PK/PK4LM_139.png)
+
+![](images/PK/PK4LM_140.jpg)
+
+<span style="color:#ff0000">Stationary needle</span>
+
+
+
+  * When a plate moves over a plume\, a track of volcanoes results
+
+
+![](images/PK/PK4LM_141.jpg)
+
+# Mantle plumes & flood basalts
+
+Flood basalts are large areas of new rock that form when a plume ‘stalls’
+
+These large areas of basalt transported significant H2O\, CO2 & SO2 to the atmosphere
+
+![](images/PK/PK4LM_142.jpg)
+
+![](images/PK/PK4LM_143.png)
+
+Tasa Graphic Arts
+
+Wang et al\. \(2016\) Lithos
+
+Distribution of Mantle Plume Traces
+
+
+
+  * Plume traces are consistent within a plate
+  * because they follow plate movement
+
+
+![](images/PK/PK4LM_144.png)
+
+
+
+  * Some plume traces “start at a large ‘flood basalt” area \(star\)
+
+
+![](images/PK/PK4LM_145.jpg)
+
+From Winter 2001
+
+Imaging a mantle plume or ‘hot spot’
+
+
+
+  * Although we see evidence for low density plumes & we can model their
+  * behaviour\, they are difficult to image with seismic methods
+  * Is their rel\. low density due to thermal or compositional effects?
+  * Do they form at the core\-mantle boundary or within mantle?
+
+
+__Plume under an oceanic plate__
+
+__Plume under a continental plate__
+
+![](images/PK/PK4LM_146.png)
+
+Wolfe et al\. \(2009\)
+
+Porrit et al\. \(2014\)
+
+Thermo\-Chemical Internal Dynamics & Volatile Distribution \- 2014 IRIS Workshop
+
+Dalton\, Garnero\, Hirth and Long  https://www\.youtube\.com/watch?v=EH2q\-J7jXvo
+
+# Planetary Volcanism
+
+# Next week

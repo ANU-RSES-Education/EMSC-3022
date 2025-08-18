@@ -1,6 +1,6 @@
 ---
-title: Planetary Geophysics 1
-author: Louis Moresi
+title: Probing Planetary Interiors 1
+author: Louis Moresi, Penny King
 institute: 'RSES'
 date: '2025-07-01'
 
@@ -31,26 +31,165 @@ lang: en
 #     name: python3
 ---
 
-# In the morning
 
-## Wake up
-
+# Probing Planetary Interiors
 
 
-- Get out of bed
-- Drag a comb across my head
+<center>
+![](images/PK/PK4LM_0.jpg){height="400px"}
+</center>
 
-## Breakfast
+ - How do we understand the interiors of planets ?
+ - Heat flow
+ - Introduction to plate tectonics
+ - Tectonic features beyond Earth
+ - Different types of crust
 
-- Find my way downstairs and
-- Drink a cup (of coffee)
+# Formation of a planet
 
-## Day
+_To understand a planet’s internal energy & tectonic features recall how it formed…_
 
- - Find my coat
- - Grab my hat
- - Run for the bus
+<center>
+<iframe width="800" height="450" src="https://www.youtube-nocookie.com/embed/7zm9eEyMfXQ?si=DN8j4E-Z0bfnvloJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 
-# In the evening
+Solar nebula forms from / within a giant cloud of dust & gas leftover from an earlier supernova explosion. Gravitational contraction begins, gravitational potential energy is converted to kinetic energy, angular momentum conservation leads to a spin-up of the system. Grains condense, aggregate, collide and planetessimals accrete. This continues until recognisable planets start to emerge.
 
-...
+## Self Compression
+
+<center>
+![](images/PK/PK4LM-SelfCompresion.png){height="400px"}
+
+<small>_Marshak, 2001_</small>
+</center>
+
+The gravitational self-attraction for the newly-formed planet compresses the material and increases its density. This also results in heating.
+
+## Differentiation — aka separation into chemically-distinct layers
+
+<center>
+![](images/PK/PK4LM_4.jpg){height="400px"}
+
+<small>_Press et al, 2004_</small>
+</center>
+
+The planet will also tend to differentiate — heavy iron settling to the core, lighter silicate material separating upwards. This does assume that _buoyancy forces_ can overcome the _material strength_. Typically, this is easier in larger bodies where the gravity is higher (but the material strength does not change much).
+
+
+# Thermal State of the Earth
+
+<center>
+![](images/PK/PK4LM_2.png){height="280px"}
+
+</center>
+
+Sources of energy:
+
+ - Accretion & self-compression (kinetic energy of accreted objects)
+ - Differentiation / segregation (graviational potential energy)
+ - Radiogenic isotopes
+ - Phase changes / solidification (latent heat)
+ - Tidal dissipation (gravitational interactions / deforming the planet)
+
+The Earth is cooling today. The heat energy that is lost from the interior is what drives
+the tectonic cycle. The global heat loss rate is about 44 TW.
+
+## Earth's Cooling in Context
+
+Compare 44 TW to the Solar insolation etc.
+
+
+# Layers in Terrestrial Planets
+
+<center>
+![](images/PK/PK4LM_5.gif){height="450px"}
+
+_image ©Dr. Anne E. Egger CC BY-NC-SA 4.0_
+</center>
+
+ - Chemical or compositional — crust, mantle, D'', core.
+ - Mechanical strength — lithosphere, asthenosphere, transition zone, deep mantle, liquid (outer) core, solid (inner) core.
+
+## Layers in Terrestrial Planets
+
+<center>
+![](images/PK/Peaches.png){height="450px"}
+
+_[link to original image](https://search.library.wisc.edu/digital/ATQJA6V5SGUREA8G)_
+
+</center>
+
+For a good sense of scale: here is half a peach compared to Earth’s layers.
+
+Outer skin & flesh differ in composition but behave similarly in terms of their
+mechanics (deformation in response to stress)
+
+# Temperatures, Pressures, Mechanical Strength
+
+<center>
+![](images/PK/PK4LM_8.jpg){height="300px"}
+
+_Temperature with Depth (Pressure)_
+</center>
+
+Lower pressure: more likely to see cracks / faults at every scale, fracturing, breaking etc. Elastic stresses can be stored for a long time and can build up over time.
+
+Higher pressure: deformation is less likely to be through fractures, elastic stresses tend to relax away, deformation can be fluid-like (slowly creeping). Melting is less likely when pressure increases.
+
+Earth’s interior is almost entirely solid, except for the outer core and a few pockets of semi-molten rock near the surface.
+
+## Temperatures, Pressures, Mechanical Strength
+
+<center>
+![](images/PK/PK4LM-Geotherms.png){height="360px"} &nbsp;&nbsp;&nbsp;
+
+_The "Geotherm" (temperature at depth) is not the same everywhere, and continents are systematically different from oceans – Skinner & Murck (2011)._
+</center>
+
+Oceans have: thin crust, lower concentration of radiogenic elements, are relatively young lithosphere.
+
+Continents are: quite variable but generally thicker crust, often higher radiogenic element content, often older than oceans, sometimes very much older.
+
+
+# Topography
+
+<center>
+
+![](images/PK/PK4LM_13.jpg){style="height:350px; "}
+
+</center>
+
+The topography of the Earth: all the regions that stand high are regions with thicker, lighter crust. This is true in a broad brush sense (continents where crustal density is $\sim 2700kg/m^3$  v. oceans where crustal density is $\sim 3200kg/m^3$) and when we focus in on smaller continental regions (mountains are high regions where the crust is thick and basins are low regions where the crust is thinner).
+
+## Buoyancy and Topography: Isostasy
+
+If the crustal thickness or density varies, then we should be able to see this through an "isostatic" equilibrium between density and topography.
+
+$$
+\int_0^{d_c} \rho(z) dz = \textrm{constant}
+$$
+
+(where $d_c$ is called the _compensation depth_)
+
+<center>
+![](images/Isostasy2.png){style="height:200px; "}
+<small>
+_The Airy model of isostasy relates crustal thickness to topography. Compare continental crust to buoyant icebergs floating high in the water and having a deep, buoyant root._
+</small>
+
+</center>
+
+We usually think about isostasy as the light crust floating on the mantle,
+the same approach works for any density variations near the surface (e.g. thermal anomalies).
+If we integrate every density anomaly in adjacent columns, they balance out
+in the asthenosphere.  **This is the Pratt model of isostasy.**
+
+
+# Pause — Questions ?
+
+# Index
+
+ - [Slides: Solar System Solid Planets](Slides-SS-SolidPlanets.html)
+ - [Slides: Solid Planets 1](Slides-PlanetaryGeophysics-1.html)
+ - [Slides: Solid Planets 2](Slides-PlanetaryGeophysics-2.html)
+ - [Slides: Solid Planets 3](Slides-PlanetaryGeophysics-3.html)
