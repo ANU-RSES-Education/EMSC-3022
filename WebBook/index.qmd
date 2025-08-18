@@ -17,6 +17,9 @@ date: 2024-03-17
 
 <hr>
 
+![](Images/qr-code.png){style="width:120px; float:right; padding:20px;"}
+
+
 Summary of course material for week 5 of EMSC 3022 (Planetary Science), 2025 edition.
 
 There are two sets of lecture materials in this section of the Planetary Science course. The first is a [guide book to the terrestrial planets](../slides/Slides-SS-SolidPlanets.html) of the solar system. We'll review this material, but it is mostly there for you to browse for later lectures in the course.
