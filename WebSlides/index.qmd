@@ -27,7 +27,7 @@ lang: en
 
 Index file - just in case
 
- - [Slides: Solar System Solid Planets](Lecture-SS-SolidPlanets.html)
- - [Slides: Solid Planets 1](Lecture-PlanetaryGeophysics-1.html)
- - [Slides: Solid Planets 2](Lecture-PlanetaryGeophysics-2.html)
- - [Slides: Solid Planets 3](Lecture-PlanetaryGeophysics-3.html)
+ - [Slides: Solar System Solid Planets](Slides-SS-SolidPlanets.html)
+ - [Slides: Solid Planets 1](Slides-SS-SolidPlanets.html)
+ - [Slides: Solid Planets 2](Slides-SS-SolidPlanets.html)
+ - [Slides: Solid Planets 3](Slides-SS-SolidPlanets.html)

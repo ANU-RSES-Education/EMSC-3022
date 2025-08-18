@@ -12,7 +12,6 @@ book:
     - part: "**Geodynamics and Planetary Interiors**"
       chapters:
         - index.qmd
-        - Overview.qmd
 
     - part: "**Preamble**"
       chapters:
