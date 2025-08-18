@@ -19,7 +19,7 @@ date: 2024-03-17
 
 Summary of course material for week 5 of EMSC 3022 (Planetary Science), 2025 edition.
 
-There are two sets of lecture materials in this section of the Planetary Science course. The first is a [guide book to the terrestrial planets](../../slides/Slides-SS-SolidPlanets.html) of the solar system. We'll review this material, but it is mostly there for you to browse for later lectures in the course.
+There are two sets of lecture materials in this section of the Planetary Science course. The first is a [guide book to the terrestrial planets](../slides/Slides-SS-SolidPlanets.html) of the solar system. We'll review this material, but it is mostly there for you to browse for later lectures in the course.
 
 There are three mini-lectures on how we probe the interior structure of planets focussing on seismology and thermal evolution (including a brief overview of mantle convection). You can navigate to this material from the sidebar (on the left).
 
