@@ -15,7 +15,18 @@
     "href": "Overview.html",
     "title": "Overview",
     "section": "",
-    "text": "Summary of course material, with links to Lecture notes (slide embedded) and one or more lab exercises. Should have background reading / videos highlighted",
+    "text": "Slides / Navigation\nSummary of course material, with links to Lecture notes (slide embedded) and one or more lab exercises. Should have background reading / videos highlighted\nThere are lecture-slideshows in this document that you can also follow at your own pace. There are full sets of lecture slides and are 100% available online.\nYou can see the slides in full-screen by hitting the f key and use Esc to return to the window.",
+    "crumbs": [
+      "**Geodynamics and Planetary Interiors**",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview</span>"
+    ]
+  },
+  {
+    "objectID": "Overview.html#slides-navigation",
+    "href": "Overview.html#slides-navigation",
+    "title": "Overview",
+    "section": "",
+    "text": "Overview\n\n\n\n\nSlides are laid out in 2D. The general flow is left-to-right but when there is additional material on a topic, there is an extra navigation direction to go down as well. To toggle this view, press the ‘o’ key when the pointer is over the presentation\n\n\n\n\n\nNavigation\n\n\n\n\nThe “navigation-arrows show you when there is extra material to view in the downward direction. You can click the arrows or just use the arrow keys on your browser\n\n\n\n\n\nControls\n\n\n\n\nThe control-menu pops up as a navigation aid for the presentation and also has a list of keyboard shortcuts (under the cog symbol)",
     "crumbs": [
       "**Geodynamics and Planetary Interiors**",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview</span>"

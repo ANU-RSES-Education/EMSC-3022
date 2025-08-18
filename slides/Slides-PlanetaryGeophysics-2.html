@@ -9,9 +9,9 @@
 <link href="Slides-PlanetaryGeophysics-2_files/libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.33">
 
-  <meta name="author" content="Louis Moresi">
+  <meta name="author" content="Louis Moresi, Penny King">
   <meta name="dcterms.date" content="2025-07-01">
-  <title>Planetary Geophysics 2</title>
+  <title>Probing Planetary Interiors 2</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -128,12 +128,12 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="images/custom/anu_general.png" data-background-size="contain" class="quarto-title-block center">
-  <h1 class="title">Planetary Geophysics 2</h1>
+  <h1 class="title">Probing Planetary Interiors 2</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Louis Moresi 
+Louis Moresi, Penny King 
 </div>
         <p class="quarto-title-affiliation">
             RSES
@@ -141,47 +141,403 @@ Louis Moresi
     </div>
 </div>
 
-  <p class="date">2025-07-01</p>
+  <p class="date">July 1, 2025</p>
 </section>
-<section>
-<section id="in-the-morning" class="title-slide slide level1 center">
-<h1>In the morning</h1>
+<section id="probing-planetary-interiors" class="title-slide slide level1 center">
+<h1>Probing Planetary Interiors</h1>
+<p>How do we know what is inside a planet ?</p>
+<div style="width:40%; float:right">
+<p><img data-src="images/EarthXsection.png"></p>
+</div>
+<div style="width:60%">
+<p>The circulation currents in the <em>solid mantle</em> move at a few cm/yr and plate motions are part of the overall circulation. On a global scale, movement is slow and viscous, especially in the deep mantle.</p>
+<p>Mantle Plumes are also part of the overall circulation but much smaller than the slabs because they are cylindrical rather than sheets. Flow in the mantle is broad scale - small structures induce broad flow.</p>
+<p>Other solid planets should follow the same basic physical models as the Earth, so it’s best to learn how things work on the most-instrumented planet first of all.</p>
+</div>
+</section>
 
+<section id="mantle-convection" class="title-slide slide level1 center">
+<h1>Mantle Convection</h1>
+<p>Convection in Earth’s interior is (a little bit) like a boiling pot (as we saw in a previous lecture)</p>
+<center>
+<p><img data-src="images/USGS-ConvectionCartoon.png" class="quarto-figure quarto-figure-center" height="300"> &nbsp; <img data-src="images/AWatchedPot.png" class="quarto-figure quarto-figure-center" height="300"></p>
+</center>
+<p>The hot soup rises to the surface, spreads and begins to cool, and then sinks back to the bottom of the pot where it is reheated and rises again. <strong>Why does hot soup rise and cold soup sink</strong> ?</p>
 </section>
-<section id="getting-up" class="slide level2 center">
-<h2>Getting up</h2>
+
+<section>
+<section id="general-observations-on-convection" class="title-slide slide level1 center">
+<h1>General Observations on Convection</h1>
+<div class="columns">
+<div class="column" style="width:66%;">
+<p>Without being particularly quantitative:</p>
 <ul>
-<li>Turn off alarm</li>
-<li>Get out of bed</li>
+<li>Hot liquid is more buoyant than cold material <strong>and it tends to rise</strong></li>
+<li>Cooler liquid is less buoyant and <strong>therefore tends to sink</strong></li>
+<li>This can only happen if the two can <strong>move past each other</strong></li>
+<li>Convection produces a self-stirring</li>
+</ul>
+</div><div class="column" style="width:34%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="images/AWatchedPot.png" class="quarto-figure quarto-figure-right" height="200"></p>
+</figure>
+</div>
+</div></div>
+<p>Buoyancy forces are at work and viscous forces counteract these forces once the fluid is moving</p>
+<p><span class="math display">\[
+\textrm{buoyancy} \propto g \rho_0 \alpha(1-\Delta T)
+\]</span></p>
+<p>Convection like this will only work when the soup is heated from below or, in the case of the Earth, if it is heated from within by radioactivity. <strong>(Can you see why) ?</strong></p>
+</section>
+<section id="general-observations-on-convection-1" class="slide level2 center">
+<h2>General Observations on Convection</h2>
+<p><strong>Definition</strong>: Convection is the transfer of heat by the self-organised movement of a fluid. Free convection is when the fluid is stirred entirely by rising buoyant material and sinking negatively-buoyant material. (Forced convection is produced when the fluid is stirred mechanically).</p>
+<center>
+<video autoplay="" controls="" width="33%">
+<source src="movies/LavaLampNormalSpeed.m4v" type="video/mp4">
+<pre><code>Sorry, your browser doesn't support embedded videos.</code></pre>
+</video>
+</center>
+<p>Convection is one of the ways we transfer heat from hot regions deep in the Earth to cooler, shallow regions.</p>
+</section></section>
+<section id="heat-transfer" class="title-slide slide level1 center">
+<h1>Heat Transfer</h1>
+<p>Other ways that heat can be transferred include <em>radiation</em>, <em>advection</em>, and <em>conduction</em>.</p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Advection</strong> of heat is where some object carries an excess (or defecit of) heat energy from place to place.</p>
+<p><strong>Conduction</strong> is the transfer of heat (or electric current) from one substance to another by direct contact (lattice vibrations / electrons).</p>
+<p><strong>Radiation</strong> is the transfer of heat energy by photons that pass between two materials. It does not require any physical contact or indermediary material (e.g.&nbsp;it is not a problem to transfer heat across a vacuum this way).</p>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Heat-transmittance-means2.jpg"></p>
+<figcaption>“Kmecfiunit, cmglee, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons”</figcaption>
+</figure>
+</div>
+</div></div>
+</section>
+
+<section>
+<section id="conduction-fouriers-law---i" class="title-slide slide level1 center">
+<h1>Conduction &amp; Fourier’s Law - i</h1>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Fourier’s Law</strong> tells us how much heat, <span class="math inline">\(Q\)</span> is conducted through a sample in a unit time</p>
+<p><span class="math display">\[
+  Q=-\frac{k A \Delta T}{L}
+\]</span></p>
+<p><span class="math inline">\(A\)</span> is the cross sectional area of the sample, <span class="math inline">\(L\)</span> is its length, <span class="math inline">\(k\)</span> is a thermal conductivity “constant” dependent on the nature of the material and often also on the temperature, and <span class="math inline">\(\Delta T\)</span> is the temperature difference across the sample. (Note the minus sign because heat will always flow from a higher temperature to a lower temperature.)</p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/FourierCylinder.png"></p>
+</div></div>
+</section>
+<section id="conduction-fouriers-law---ii" class="slide level2 center">
+<h2>Conduction &amp; Fourier’s Law - ii</h2>
+<p><strong>Fourier’s Law</strong> is explained using a simple thought experiment such as this one but it actually refers to the fact that heat flows <em>down a temperature gradient</em>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/HeatFlux.png" class="quarto-figure quarto-figure-center" height="300"></p>
+</figure>
+</div>
+<div class="columns" style="display: flex; align-items: center;">
+<div class="column" style="width:20%; display: flex; align-items: center;">
+<p><span class="math display">\[ q = - k \frac{dT}{dx} \]</span></p>
+</div><div class="column" style="width:80%; display: flex; align-items: center;">
+<p><span class="math inline">\(q, (W/m^2)\)</span> is called the heat flux and measures the flow of heat per unit area perpendicular to the temperature gradient</p>
+</div></div>
+</section>
+<section id="conduction-fouriers-law---iii" class="slide level2 center">
+<h2>Conduction &amp; Fourier’s Law - iii</h2>
+<p>If the heat flux into a region is not balanced by the heat flux out, the region must change temperature. For example, if more heat flow into a region than is flowing out, it will become warmer.</p>
+<!-- :::{style="width:80%; text-align: left; margin: 0 auto;"}
+![The heat flow in the diagram is away in both directions from the high temperature to the cooler areas. The loss of heat from this region is balanced by a reduced temperature.
+](images/HeatFlux2.png){height="300px"}
+::: -->
+<div class="columns" style="display: flex; align-items: center;">
+<div class="column" style="width:35%; display: flex; align-items: center;">
+<p><em>The heat flow in the diagram is away (in both directions) from the high temperature to the cooler areas. The loss of heat from this region is balanced by a reduced temperature.</em></p>
+</div><div class="column" style="width:5%;">
+<p>&nbsp;</p>
+</div><div class="column" style="width:60%;">
+<img data-src="images/HeatFlux2.png" class="r-stretch">
+</div></div>
+<p>This process reduces the amplitude of temperature variations over time and makes the temperature smoother. <strong>Temperature extremes become smaller, gradients become lower, the heat flux everywhere becomes smaller: the temperature differences <em>decay</em> through time.</strong></p>
+</section>
+<section id="conduction-fouriers-law---iv" class="slide level2 center">
+<h2>Conduction &amp; Fourier’s Law - iv</h2>
+<p>If a region has a different heat flux in v. out, then there must be a gradient in the heat flux. A change in temperature is driven by gradients in the heat flux like this:</p>
+<p><span class="math display">\[
+   \frac{\partial T}{\partial t} =  -\frac{1}{\rho C_p} \frac{\partial q}{\partial x} + H
+\]</span></p>
+<p><span class="math inline">\(H\)</span> is internal heat generation which is often important in the Earth because of the decay of radioactive isotopes. Now we substitute for <span class="math inline">\(q\)</span> from Fourier’s Law and have this expression:</p>
+<p><span class="math display">\[
+   \frac{\partial T}{\partial t} =  \frac{k}{\rho C_p} \frac{\partial^2 T}{\partial x^2} + H
+\]</span></p>
+<p>Fourier was one of the first to solve this mathematically and developed his method of summing harmonics (series solutions) as part of this study.</p>
+</section>
+<section id="newtons-law-of-cooling" class="slide level2 center">
+<h2>Newton’s Law of Cooling</h2>
+<p>Another example of “thermal decay” occurs when we have a hot body in a cool environment loosing heat through its surface according to the Fourier Law.</p>
+<div class="columns" style="display: flex; align-items: center;">
+<div class="column" style="width:55%;">
+<p>The heat flux is proportional to the difference in temperature between the hot object and the surroundings, so</p>
+<p><span class="math display">\[
+  \frac{dT}{dt} \propto T - T_0  \quad \rightarrow \quad T = T_1 e^{-\lambda t}
+\]</span></p>
+<p>This is exactly the same equation for the anomalous temperature as for the quantity of a radioactive isotope remaining after a certain time and has the same solution with <span class="math inline">\(\lambda\)</span> a constant for a particular experiment.</p>
+</div><div class="column" style="width:40%;">
+<img data-src="images/NewtonsLawOfCooling.png" class="r-stretch">
+</div></div>
+</section></section>
+<section id="thermal-diffusion-and-planetary-heat-flow" class="title-slide slide level1 center">
+<h1>Thermal Diffusion and Planetary Heat flow</h1>
+<p>The rate of heat loss is a primary controller of how a planet evolves.</p>
+<ul>
+<li><p>The heat loss controls the internal temperature of the planet and its mechanical properties are expected to be dependent on temperature</p></li>
+<li><p>The rate of heat loss from the interior is related to the energy available to supply mechanical work to deform the planet</p></li>
+<li><p>The rate of heat loss governs the amount of time the planet can remain “geologically” active before the interior stops exchanging with the surface / atmosphere.</p></li>
 </ul>
 </section>
-<section id="breakfast" class="slide level2 center">
-<h2>Breakfast</h2>
+
+<section>
+<section id="surface-temperature-and-heat-loss" class="title-slide slide level1 center">
+<h1>Surface temperature and Heat loss</h1>
+<p>The Stefan-Boltzmann law tells us the rate at which a hot object loses heat to its surroundings.</p>
+<p><span class="math display">\[
+P = \varepsilon \sigma A \left( T^4_\textrm{hot} - T^4_\textrm{ambient} \right)
+\]</span></p>
+<p>The average surface temperature of the Earth is about 15°C or 288K. This implies a loss of heat at a rate of 2 x 10<sup>17</sup> W globally (to the chill of space) We can make some assumptions about the energy content of the Earth to see how long this can be sustained.</p>
+<p><span class="math display">\[
+  \require{cancel}
+  \require{color}
+  \frac{dE}{dt} = \frac{dE}{dT} { \color{blue} \frac{dT}{dt} } =
+  \varepsilon \sigma A \left( T^4_\textrm{hot} - \bcancel{T^4 _\textrm{ambient}} \right)
+\]</span></p>
+<p><span class="math display">\[
+  \require{cancel}
+  t_\textrm{cooling} =
+      \frac{\rho C_p V_\oplus}{\varepsilon \sigma A_\oplus}
+      \int^{T_\mathrm{final}}_{T_{initial}} \frac{1}{T^4}dT =
+      \frac{\rho C_p R_\oplus}{3 \varepsilon \sigma}
+      \left( \frac{1}{T^3_\mathrm{final}} -
+             \bcancel{\frac{1}{T^3_\mathrm{initial}}}
+      \right)
+\]</span></p>
+<p><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/cootime.html#c2">Online Calculator Tool</a> (interactive version)</p>
+</section>
+<section id="surface-temperature-and-heat-loss-2" class="slide level2 center">
+<h2>Surface temperature and Heat loss (2)</h2>
+<p>Assuming an initial temperature of 1500K (molten rock observed at the Earth’s surface) gives a cooling time of <strong>250,000 years</strong>.</p>
+<p>That’s quite young !</p>
+<p>What is missing / incorrect in this analysis ?</p>
 <ul>
-<li>Eat eggs</li>
-<li>Drink coffee</li>
+<li><p>The incoming radiation from the sun (estimated 1.75 x 10<sup>17</sup> W) implies the Earth’s surface is near equilibrium with the solar radiation and therefore we should not assume cooling to the cold depths of outer space (how long has this near-equilibrium been established ?)</p></li>
+<li><p>The assumption that the Earth’s interior is isothermal</p></li>
+<li><p>The assumption that heat loss from the interior to the surface is perfectly efficient</p></li>
 </ul>
+<p>This analysis might be quite useful for a molten planet (magma ocean) where the heat transport in a vigorously convecting interior is very efficient. Once the planet begins to crystallise, conductive cooling through the chilled surface layers becomes the rate-controlling process.</p>
+</section></section>
+<section id="solution-for-the-uniform-conduction-of-heat-out-of-a-sphere" class="title-slide slide level1 center">
+<h1>Solution for the uniform conduction of heat out of a sphere</h1>
+<div class="columns">
+<div class="column" style="width:65%;">
+<p>What is the <strong>equilibrium</strong> heat flow across a thin spherical shell ?</p>
+<ul>
+<li>Heat flux in balances heat flux out</li>
+<li>Account for heat generation within the shell</li>
+</ul>
+<p><span class="math display">\[ Q_r = 4\pi r^2 \cdot q_r(r) \]</span></p>
+<p><span class="math display">\[ Q_{r+\delta r} = 4\pi (r+\delta_r)^2 \cdot q_r(r+\delta_r) \]</span></p>
+</div><div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="images/AnnulusSphere_dR.png" class="quarto-figure quarto-figure-right"></p>
+</figure>
+</div>
+</div></div>
+<p>The steady solution has this form</p>
+<p><span class="math display">\[
+  T = -\frac{\rho H}{6 k} r^2 + \frac{C_1}{r} + C_2
+\]</span></p>
+<p>Which is only interesting if there is internal heating (<span class="math inline">\(H\)</span>) and otherwise implies constant temperature / no additional heat at depth. Steady-state, of course, tells us nothing about the age of the Earth. <span class="math inline">\(C_1\)</span> has to be zero, for the solution to be meaningful at <span class="math inline">\(r=0\)</span>.</p>
+</section>
+
+<section>
+<section id="transient-solution-for-a-sphere-cooling-from-a-uniform-t" class="title-slide slide level1 center">
+<h1>Transient solution for a sphere cooling from a uniform T</h1>
+<p>The transient (i.e.&nbsp;interesting) equivalent to this problem is qualitatively different from the steady one. There are now variations with time and these trade-off with variations in the radial direction.</p>
+<p>Fourier’s approach was to find solutions in the form of a series of terms, each of which individually satisfies the equations, but none of which, in isolation, looks much like the actual solution.</p>
+<p>The equation we want to solve looks like this:</p>
+<p><span class="math display">\[
+  \frac{\partial T}{\partial t} = \frac{1}{r^2} \frac{\partial}{\partial r}
+                                  \left( \frac{1}{r^2}\frac{\partial T}{\partial r}\right)
+\]</span></p>
+<p>It says that the temperature changes due to radial temperature gradients and, equally, that radial temperature gradients are established by the changes in temperature.</p>
+<p><strong>NOTE:</strong> I have left out the material “constants” like thermal conductivity, radius of the sphere, density which means I am assuming these are all 1 (and constant)</p>
+</section>
+<section id="transient-solution-for-a-sphere-cooling-from-a-uniform-t-2" class="slide level2 center">
+<h2>Transient solution for a sphere cooling from a uniform T (2)</h2>
+<p><span class="math display">\[
+  \frac{\partial T}{\partial t} = \frac{1}{r^2} \frac{\partial}{\partial r}
+                                  \left( \frac{1}{r^2}\frac{\partial T}{\partial r}\right)
+\]</span></p>
+<p>We can look for solutions that take the form …</p>
+<p><span class="math display">\[
+  T(r,t) = \frac{2}{r} \sum_{n=1}^{\infty}
+                          \exp\left( n^2\pi^2 t \right) \sin(n\pi r) \cdot
+                        \int_0^1 {\color{red}{f_T(r^*)}} \cdot r^* \sin(n\pi r^*) dr^*
+\]</span></p>
+<p>The term in red is the initial temperature distribution. If we assume that this is uniform everywhere, then this is simplified to the point where we can easily evaluate the solution:</p>
+<p><span class="math display">\[
+  T(r,t) = \frac{2}{r} \sum_{n=1}^{\infty}
+                          \exp\left( n^2\pi^2 t \right) \sin(n\pi r) \cdot
+                        \left( \frac{\sin(n\pi) - n \pi \cos(n\pi)}{n^2 \pi^2}  \right)
+\]</span></p>
+</section>
+<section id="transient-solution-for-a-sphere-cooling-from-a-uniform-t-1" class="slide level2 center">
+<h2>Transient solution for a sphere cooling from a uniform T</h2>
+<p><span class="math display">\[
+  T(r,t) = \frac{2}{r} \sum_{n=1}^{\infty}
+                          \exp\left( n^2\pi^2 t \right) \sin(n\pi r) \cdot
+                        \left( \frac{\sin(n\pi) - n \pi \cos(n\pi)}{n^2 \pi^2}  \right)
+\]</span></p>
+<center>
+<img data-src="images/CoolingSphere_EvolutionAndCentralT.png" style="width:90.0%">
+</center>
+</section>
+<section id="transient-solution-for-a-sphere-cooling-from-a-uniform-t-3" class="slide level2 center">
+<h2>Transient solution for a sphere cooling from a uniform T</h2>
+<p><span class="math display">\[
+  T(r,t) = \frac{2}{r} \sum_{n=1}^{\infty}
+                          \exp\left( n^2\pi^2 t \right) \sin(n\pi r) \cdot
+                        \left( \frac{\sin(n\pi) - n \pi \cos(n\pi)}{n^2 \pi^2}  \right)
+\]</span></p>
+<p>The temperature gradient at the surface is found by differentiating this expression w.r.t. <span class="math inline">\(r\)</span> and evaluating at <span class="math inline">\(r=1\)</span></p>
+<p><span class="math display">\[
+  \frac{\partial T}{\partial r}(1,t) = -\sum_{n=1}^{\infty}
+                        \frac{2 e^{-n^2\pi^2 t}
+                             \left( n\pi \cos(n\pi) -\sin(n\pi) \right)^2}{n^2 \pi^2}
+\]</span></p>
+<p>The surface heat flux is then given by</p>
+<p><span class="math display">\[
+  q_0 = -k\frac{\partial T}{\partial r}(1,t)
+\]</span></p>
+</section>
+<section id="transient-solution-for-a-sphere-cooling-from-a-uniform-t-4" class="slide level2 center">
+<h2>Transient solution for a sphere cooling from a uniform T</h2>
+<p><span class="math display">\[
+  \frac{\partial T}{\partial r}(1,t) = -\sum_{n=1}^{\infty}
+                        \frac{2 e^{-n^2\pi^2 t}
+                             \left( n\pi \cos(n\pi) -\sin(n\pi) \right)^2}{n^2 \pi^2}
+\]</span></p>
+<center>
+<img data-src="images/CoolingSphere_AgeCalculation.png" style="width:50.0%">
+</center>
+<p>This is, essentially, the simplest version of estimate by Lord Kelvin for the age of the Earth based on a uniform internal temperature. Nobody really liked his conclusion – it was too old to satisfy the biblical literalists, and too young to satisfy their opponents: the evolutionist / biologists and the geologists.</p>
+</section>
+<section id="transient-solution-for-a-sphere-cooling-from-a-uniform-t-5" class="slide level2 center">
+<h2>Transient solution for a sphere cooling from a uniform T</h2>
+<p><span class="math display">\[
+  \frac{\partial T}{\partial r}(1,t) = -\sum_{n=1}^{\infty}
+                        \frac{2 e^{-n^2\pi^2 t}
+                             \left( n\pi \cos(n\pi) -\sin(n\pi) \right)^2}{n^2 \pi^2}
+\]</span></p>
+<center>
+<img data-src="images/CoolingSphere_AgeCalculation.png" style="width:50.0%">
+</center>
+<p><strong>Analogy:</strong> In any good murder-mystery, when somebody finds a body, the ‘time of death’ is estimated by measuring the body temperature. We know the initial temperature, so the cooling calculation is the same as this one.</p>
+</section>
+<section id="transient-solution-for-a-sphere-cooling-from-a-uniform-t-details" class="slide level2 center">
+<h2>Transient solution for a sphere cooling from a uniform T (details)</h2>
+<p><span class="math display">\[
+  T(r,t) = \frac{2}{r} \sum_{n=1}^{\infty}
+                          \exp\left( n^2\pi^2 t \right) \sin(n\pi r) \cdot
+                        \left( \frac{\sin(n\pi) - n \pi \cos(n\pi)}{n^2 \pi^2}  \right)
+\]</span></p>
+<p>Ignoring how we come by this (complicated-looking) solution for the time being, what do these terms actually look like ?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/CoolingSphere_Harmonics.png" class="quarto-figure quarto-figure-center" height="300"></p>
+</figure>
+</div>
+<p>A fundamental objection to Fourier’s original approach to solving equations by series solution is that the harmonics can violate the boundary conditions and other physical constraints.</p>
+</section>
+<section id="transient-solution-for-a-sphere-cooling-from-a-uniform-t-details-1" class="slide level2 center">
+<h2>Transient solution for a sphere cooling from a uniform T (details)</h2>
+<p><span class="math display">\[
+  T(r,t) = \frac{2}{r} \sum_{n=1}^{\infty}
+                          \exp\left( n^2\pi^2 t \right) \sin(n\pi r) \cdot
+                        \left( \frac{\sin(n\pi) - n \pi \cos(n\pi)}{n^2 \pi^2}  \right)
+\]</span></p>
+<p>How do the harmonics look when added together to give an approximation to the solution ?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/CoolingSphere_Summation.png" class="quarto-figure quarto-figure-center" height="300"></p>
+</figure>
+</div>
+<p>The solution <em>does</em> satisfy the boundary conditions and the physical constraints. <strong>Note</strong> that the smaller time solution has much sharper gradients and many more terms are required to accurately approximate the solution.</p>
 </section></section>
 <section>
-<section id="in-the-evening" class="title-slide slide level1 center">
-<h1>In the evening</h1>
-
+<section id="the-cooling-of-a-semi-infinite-domain" class="title-slide slide level1 center">
+<h1>The cooling of a semi-infinite domain</h1>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><span class="math display">\[
+\newcommand{\erfc}{\mathop{\rm erfc}\nolimits}
+T = \erfc\left(\frac{z}{2\sqrt{t}}\right)
+\]</span></p>
+<p>This is a very different solution strategy to the cooling sphere (and yet they should, in a mathematical sense, approach each other as the radius becomes large).</p>
+<p>The solution looks <strong>very similar</strong> in character: a cooling front which propagates in from the surface. The curves are self-similar, they just differ by a scaling factor.</p>
+</div><div class="column" style="width:60%;">
+<center>
+<img data-src="images/CoolingHalfSpace_EvolutionT.png" style="width:100.0%">
+</center>
+</div></div>
 </section>
-<section id="dinner" class="slide level2 center">
-<h2>Dinner</h2>
-<ul>
-<li>Eat spaghetti</li>
-<li>Drink wine</li>
-</ul>
-</section>
-<section id="going-to-sleep" class="slide level2 center">
-<h2>Going to sleep</h2>
-<ul>
-<li>Get in bed</li>
-<li>Count sheep</li>
-</ul>
-
+<section id="the-cooling-of-a-semi-infinite-domain-1" class="slide level2 center">
+<h2>The cooling of a semi-infinite domain</h2>
+<div class="columns">
+<div class="column" style="width:75%;">
+<p>This is a problem not unlike the cooling sphere, but with no inherent length scale that comes from the boundary conditions. The equations are similar but we are working in a Cartesian geometry (and also ignoring all the constants !)</p>
+<p><span class="math display">\[
+  \frac{\partial T}{\partial t} = \frac{\partial^2 T}{\partial z^2}
+\]</span></p>
+<p>This equation simplifies to an ODE if we make the following substitution,</p>
+<p><span class="math display">\[
+  T^* = 1-T; \quad \eta = \frac{z}{2\sqrt{t}} \quad \rightarrow
+      -\eta\frac{d T^*}{d \eta} = \frac{1}{2}\frac{d^2 T^*}{d \eta^2}
+\]</span></p>
+<p>Which has the following solution</p>
+<p><span class="math display">\[
+\newcommand{\erf}{\mathop{\rm erf}\nolimits}
+\newcommand{\erfc}{\mathop{\rm erfc}\nolimits}
+  T^* = 1-\frac{2}{\sqrt{\pi}} \int_0^\eta e^{-\xi^2} d\xi
+      = 1 - \erf(\eta)
+      = \erfc\left(\frac{z}{2\sqrt{t}}\right)
+\]</span></p>
+</div><div class="column" style="width:25%;">
+<center>
+<img data-src="images/CoolingHalfSpace_T.png" style="width:60.0%">
+</center>
+</div></div>
 </section></section>
+<section id="pause-questions" class="title-slide slide level1 center">
+<h1>Pause — Questions ?</h1>
+
+</section>
+
+<section id="index" class="title-slide slide level1 center">
+<h1>Index</h1>
+<ul>
+<li><a href="Slides-SS-SolidPlanets.html">Slides: Solar System Solid Planets</a></li>
+<li><a href="Slides-PlanetaryGeophysics-1.html">Slides: Solid Planets 1</a></li>
+<li><a href="Slides-PlanetaryGeophysics-2.html">Slides: Solid Planets 2</a></li>
+<li><a href="Slides-PlanetaryGeophysics-3.html">Slides: Solid Planets 3</a></li>
+</ul>
+
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="images/ANU-logo.jpg" class="slide-logo"></p>
