@@ -4,32 +4,21 @@
     "href": "index.html",
     "title": "Planetary Sciences (EMSC 3022)",
     "section": "",
-    "text": "You are here: https://anu-rses-education.github.io/EMSC-3022/book/",
+    "text": "Slides / Navigation\nSummary of course material for week 5 of EMSC 3022 (Planetary Science), 2025 edition.\nThere are two sets of lecture materials in this section of the Planetary Science course. The first is a guide book to the terrestrial planets of the solar system. We’ll review this material, but it is mostly there for you to browse for later lectures in the course.\nThere are three mini-lectures on how we probe the interior structure of planets focussing on seismology and thermal evolution (including a brief overview of mantle convection). You can navigate to this material from the sidebar (on the left).\nThese are links directly to the slide-shows in case your browser doesn’t like the embedded presentations !\nYou can read all of this material from this website. See the information below for details on how to navigate the slides and find all the additional material.\nThere are lecture-slideshows in this document that you can also follow at your own pace. There are full sets of lecture slides and are 100% available online.\nYou can see the slides in full-screen by hitting the f key and use Esc to return to the window.",
     "crumbs": [
       "**Geodynamics and Planetary Interiors**",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>EMSC e-Course template</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Planetary Science (EMSC 3022) Week 5</span>"
     ]
   },
   {
-    "objectID": "Overview.html",
-    "href": "Overview.html",
-    "title": "Overview",
-    "section": "",
-    "text": "Slides / Navigation\nSummary of course material, with links to Lecture notes (slide embedded) and one or more lab exercises. Should have background reading / videos highlighted\nThere are lecture-slideshows in this document that you can also follow at your own pace. There are full sets of lecture slides and are 100% available online.\nYou can see the slides in full-screen by hitting the f key and use Esc to return to the window.",
-    "crumbs": [
-      "**Geodynamics and Planetary Interiors**",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview</span>"
-    ]
-  },
-  {
-    "objectID": "Overview.html#slides-navigation",
-    "href": "Overview.html#slides-navigation",
-    "title": "Overview",
+    "objectID": "index.html#slides-navigation",
+    "href": "index.html#slides-navigation",
+    "title": "Planetary Sciences (EMSC 3022)",
     "section": "",
     "text": "Overview\n\n\n\n\nSlides are laid out in 2D. The general flow is left-to-right but when there is additional material on a topic, there is an extra navigation direction to go down as well. To toggle this view, press the ‘o’ key when the pointer is over the presentation\n\n\n\n\n\nNavigation\n\n\n\n\nThe “navigation-arrows show you when there is extra material to view in the downward direction. You can click the arrows or just use the arrow keys on your browser\n\n\n\n\n\nControls\n\n\n\n\nThe control-menu pops up as a navigation aid for the presentation and also has a list of keyboard shortcuts (under the cog symbol)",
     "crumbs": [
       "**Geodynamics and Planetary Interiors**",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Overview</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Planetary Science (EMSC 3022) Week 5</span>"
     ]
   },
   {
@@ -39,8 +28,8 @@
     "section": "",
     "text": "In this lecture, we take a tour around the solar system and reset our perspective on the Earth so that we can visit our own planet with fresh eyes.\n\n\n\n\n\n Lectures Slides / Planets \nLink to index of presentations",
     "crumbs": [
-      "**Lectures**",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Lecture - Introduction to the Solid Planets of Our Solar System</span>"
+      "**Preamble**",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Lecture - Introduction to the Solid Planets of Our Solar System</span>"
     ]
   },
   {
@@ -48,10 +37,10 @@
     "href": "LectureMaterials/Solid-Planets-1.html",
     "title": "Lecture - Evolution of the Solid Planets of Our Solar System - 1",
     "section": "",
-    "text": "In this lecture, we take a tour around the solar system and reset our perspective on the Earth so that we can visit our own planet with fresh eyes.\n\n\n\n\n\n Lectures Slides / Planets - 1 \nLink to index of presentations",
+    "text": "In this mini-lecture, we are going to look at what is inside the terrestrial planets of the solar system and start thinking about how we can probe their interiors. Even for the Earth, this is not an easy problem but that’s where we will start.\nIt is probably helpful if you already had a look through the Solar System Guidebook\n\n\n\n\n\n Lectures Slides / Planets - 1 \nLink to index of presentations",
     "crumbs": [
       "**Lectures**",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Lecture - Evolution of the Solid Planets of Our Solar System - 1</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Lecture - Evolution of the Solid Planets of Our Solar System - 1</span>"
     ]
   },
   {
@@ -59,10 +48,21 @@
     "href": "LectureMaterials/Solid-Planets-2.html",
     "title": "Lecture - Evolution of the Solid Planets of Our Solar System - 2",
     "section": "",
-    "text": "In this lecture, we take a tour around the solar system and reset our perspective on the Earth so that we can visit our own planet with fresh eyes.\n\n\n\n\n\n Lectures Slides / Planets - 2 \nLink to index of presentations",
+    "text": "In this mini-lecture, we think about the heat content of planets and what that tells us about the age of the body and its thermal history.\nIt is probably helpful if you already had a look through the Solar System Guidebook and the previous set of Lectures Slides\n\n\n\n\n\n Lectures Slides / Planets - 2 \nLink to index of presentations",
     "crumbs": [
       "**Lectures**",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Lecture - Evolution of the Solid Planets of Our Solar System - 2</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Lecture - Evolution of the Solid Planets of Our Solar System - 2</span>"
+    ]
+  },
+  {
+    "objectID": "LectureMaterials/Solid-Planets-3.html",
+    "href": "LectureMaterials/Solid-Planets-3.html",
+    "title": "Lecture - Evolution of the Solid Planets of Our Solar System - 3",
+    "section": "",
+    "text": "In this mini-lecture, we think about the escape of heat from a convecting planet and how this works as a mechanical heat engine. This is the driving force for geology on the Earth and leads to plate tectonics. On other planets we see different styles of surface deformation reflecting the interior dynamics.\nIt is probably helpful if you already had a look through the Solar System Guidebook and the previous sets of Lectures Slides - 1 and Lectures Slides - 2\n\n\n\n\n\n Lectures Slides / Planets - 2 \nLink to index of presentations",
+    "crumbs": [
+      "**Lectures**",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Lecture - Evolution of the Solid Planets of Our Solar System - 3</span>"
     ]
   }
 ]
