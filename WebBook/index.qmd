@@ -42,7 +42,7 @@ You can read all of this material from this website. See the information below f
 There are lecture-slideshows in this document that you can also follow at your own pace. There are full sets of lecture slides and are 100% available online.
 
 <center>
-![Overview](images/QuartoSlides-Overview.png){width="480px"}
+![Overview](Images/QuartoSlides-Overview.png){width="480px"}
 </center>
 
 :::{style="font-size:100%;"}
@@ -50,7 +50,7 @@ There are lecture-slideshows in this document that you can also follow at your o
 :::
 
 <center>
-![Navigation](images/QuartoSlides-Navigation.png){width="480px"}
+![Navigation](Images/QuartoSlides-Navigation.png){width="480px"}
 </center>
 
 :::{style="font-size:100%;"}
@@ -58,7 +58,7 @@ There are lecture-slideshows in this document that you can also follow at your o
 :::
 
 <center>
-![Controls](images/QuartoSlides-Controls.png){width="480px"}
+![Controls](Images/QuartoSlides-Controls.png){width="480px"}
 </center>
 
 :::{style="font-size:100%;"}
