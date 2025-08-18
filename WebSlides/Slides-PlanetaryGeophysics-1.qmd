@@ -96,7 +96,16 @@ the tectonic cycle. The global heat loss rate is about 44 TW.
 
 ## Earth's Cooling in Context
 
-Compare 44 TW to the Solar insolation etc.
+Compare 44 TW ($4.4\times10^{13}W$) present-day heat loss to the Solar insolation flux which is
+$1.75\times10^{17}W$.
+
+The heat loss from the Earth's interior is tiny by comparison to the solar heat flux, but it does have to find its way **out** rather than finding its way **in**.
+
+Current tidal dissipation within the Earth is estimated at ($4\times 10^{12}W$).
+
+The amount of energy in the KT impactor is estimated to have been $\sim 10^{23}J$ but, average that over 100 million years and it is only about $3\times 10^7 W$. Obviously this would be a much larger energy flux in the early solar system.
+
+The gravitational potential energy released by differentiating the iron-rich core is ($\sim 4.4\times 10^{32}J$) which is roughly $\sim 10^{14}W$ averaged over the age of the Earth.
 
 
 # Layers in Terrestrial Planets

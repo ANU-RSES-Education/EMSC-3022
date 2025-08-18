@@ -1,7 +1,6 @@
 # Overview
 
-Summary of course material, with links to Lecture notes (slide embedded) and one or more lab exercises. Should have background reading / videos highlighted
-
+Summary of course material for EMSC 3022, 2025 edition.
 
 
 ## Slides / Navigation

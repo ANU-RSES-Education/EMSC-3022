@@ -14,11 +14,15 @@ book:
         - index.qmd
         - Overview.qmd
 
-    - part: "**Lectures**"
+    - part: "**Preamble**"
       chapters:
         - LectureMaterials/SolarSystemSolidPlanets.qmd
+
+    - part: "**Lectures**"
+      chapters:
         - LectureMaterials/Solid-Planets-1.qmd
         - LectureMaterials/Solid-Planets-2.qmd
+        - LectureMaterials/Solid-Planets-3.qmd
 
   navbar:
     search: true
