@@ -83,7 +83,7 @@ $$
 Where, $\textrm{Ra}$, is the *Rayleigh number*
 
 $$
-  \textrm{Ra} = \frac{g \rho_0 \alpha \Delta T}{\eta \kappa}
+  \textrm{Ra} = \frac{g \rho_0 \alpha \Delta T d^3}{\eta \kappa}
 $$
 
 What is the Rayleigh number / where does it come from  ?
@@ -167,15 +167,14 @@ $$
                      \acute{\nabla}^2  \mathbf{v}'  -  \acute{\nabla} p' +
                      \frac{g \rho_0 \alpha \Delta T d^3}{\kappa \eta} T' {\mathbf{z}} \nonumber \\
            & \textrm{or} \\
-    {\color{DarkRed}\frac{1}{{\rm Pr}}} \frac{D\mathbf{v}'}{Dt'} & =
+    {\frac{1}{{\rm Pr}}} \frac{D\mathbf{v}'}{Dt'} & =
     \acute{\nabla}^2  \mathbf{v}'  -
-    \acute{\nabla} p' + {\color{DarkRed} {\rm Ra}} T' {\mathbf{z}}
+    \acute{\nabla} p' + {{\rm Ra}} T' {\mathbf{z}}
 \end{aligned}
 $$
 
+
 The new parameters in the equation are dimensionless ratios, and show how to expand the equation back to its original form.
-
-
 
 ##  Navier-Stokes Equation / Convection
 
@@ -354,7 +353,6 @@ Convection length and timescales are determined by the Rayleigh number.
   - High $\mathrm{Ra}$ narrower boundary layers, higher temperature gradients
   - High $\mathrm{Ra}$ more likely to be time-dependent, unsteady
   - Low $\mathrm{Ra}$, convection suddenly shuts off
-
 
 We will see this picture again when we consider the patterns of heat flow in the Earth's ocean floor.
 
