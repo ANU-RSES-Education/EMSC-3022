@@ -9308,6 +9308,9 @@
       "Advanced Tools": [
         "Outils avanc\u00e9s"
       ],
+      "An error occurred while renaming the file.": [
+        "Une erreur est survenue lors du renommage du fichier."
+      ],
       "Are you sure you want to exit Jupyter Notebook?\n\nAny unsaved changes will be lost.": [
         "\u00cates-vous s\u00fbr de vouloir quitter Jupyter Notebook ?\n\nToutes les modifications non enregistr\u00e9es seront perdues."
       ],
@@ -9391,6 +9394,9 @@
       ],
       "Open\u2026": [
         "Ouvrir\u2026"
+      ],
+      "Rename Error": [
+        "Erreur lors du renommage"
       ],
       "Rename\u2026": [
         "Renommer\u2026"
